@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta
 import pandas as pd
 from sqlalchemy import create_engine
@@ -75,4 +76,9 @@ with DAG(
         python_callable=preprocess_loan_data,
     )
 
-    preprocess_task
+    trigger_train = TriggerDagRunOperator(
+        task_id='trigger_train',
+        trigger_dag_id='train_loan_model',
+    )
+
+    preprocess_task >> trigger_train

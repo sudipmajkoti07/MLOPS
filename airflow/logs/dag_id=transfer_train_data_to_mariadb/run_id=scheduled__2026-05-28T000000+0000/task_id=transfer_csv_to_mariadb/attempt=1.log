@@ -1,0 +1,108 @@
+[2026-06-06T14:47:48.674+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-06T14:47:48.708+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transfer_train_data_to_mariadb.transfer_csv_to_mariadb scheduled__2026-05-28T00:00:00+00:00 [queued]>
+[2026-06-06T14:47:48.717+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transfer_train_data_to_mariadb.transfer_csv_to_mariadb scheduled__2026-05-28T00:00:00+00:00 [queued]>
+[2026-06-06T14:47:48.718+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-06T14:47:48.730+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transfer_csv_to_mariadb> on 2026-05-28 00:00:00+00:00
+[2026-06-06T14:47:48.739+0000] {standard_task_runner.py:63} INFO - Started process 44360 to run task
+[2026-06-06T14:47:48.743+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'transfer_train_data_to_mariadb', 'transfer_csv_to_mariadb', 'scheduled__2026-05-28T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/transfer_data.py', '--cfg-path', '/tmp/tmpohf6n9p_']
+[2026-06-06T14:47:48.746+0000] {standard_task_runner.py:91} INFO - Job 50: Subtask transfer_csv_to_mariadb
+[2026-06-06T14:47:48.799+0000] {task_command.py:426} INFO - Running <TaskInstance: transfer_train_data_to_mariadb.transfer_csv_to_mariadb scheduled__2026-05-28T00:00:00+00:00 [running]> on host 7d2c0e5f18b2
+[2026-06-06T14:47:48.876+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transfer_train_data_to_mariadb' AIRFLOW_CTX_TASK_ID='transfer_csv_to_mariadb' AIRFLOW_CTX_EXECUTION_DATE='2026-05-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-28T00:00:00+00:00'
+[2026-06-06T14:47:48.877+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-06T14:47:48.890+0000] {logging_mixin.py:188} INFO - Reading data from /opt/***/data/train.csv...
+[2026-06-06T14:47:50.129+0000] {logging_mixin.py:188} INFO - Cleaning data...
+[2026-06-06T14:47:50.322+0000] {logging_mixin.py:188} INFO - Connecting to MariaDB...
+[2026-06-06T14:47:50.350+0000] {logging_mixin.py:188} INFO - Replacing existing data in loan_data table...
+[2026-06-06T14:47:52.371+0000] {logging_mixin.py:188} INFO - Transferring 593994 rows to MariaDB ColumnStore...
+[2026-06-06T14:50:45.611+0000] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2026-06-06T14:50:45.613+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-06-06T14:50:45.623+0000] {process_utils.py:132} INFO - Sending 15 to group 44360. PIDs of all processes in the group: [44360]
+[2026-06-06T14:50:45.623+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 44360
+[2026-06-06T14:50:45.624+0000] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-06-06T14:50:45.802+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-06T14:50:45.811+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/transfer_data.py", line 67, in transfer_data
+    print(f"Transferring {len(df)} rows to MariaDB ColumnStore...")
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1958, in to_sql
+    total_inserted = sql_engine.insert_records(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1498, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1059, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 967, in _execute_insert_multi
+    result = conn.execute(stmt)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1569, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 545, in _compile_w_cache
+    compiled_sql = self._compiler(
+                   ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 567, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/compiler.py", line 809, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/compiler.py", line 464, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/compiler.py", line 499, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/visitors.py", line 82, in _compiler_dispatch
+    return meth(self, **kw)
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/compiler.py", line 4015, in visit_insert
+    crud_params = crud._get_crud_params(
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/crud.py", line 178, in _get_crud_params
+    values = _extend_values_for_multiparams(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/crud.py", line 961, in _extend_values_for_multiparams
+    new_param = _create_bind_param(
+                ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/crud.py", line 211, in _create_bind_param
+    bindparam = elements.BindParameter(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 1263, in __init__
+    def __init__(
+    
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2026-06-06T14:50:45.837+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=transfer_train_data_to_mariadb, task_id=transfer_csv_to_mariadb, run_id=scheduled__2026-05-28T00:00:00+00:00, execution_date=20260528T000000, start_date=20260606T144748, end_date=20260606T145045
+[2026-06-06T14:50:45.878+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=44360, status='terminated', exitcode=2, started='14:47:48') (44360) terminated with exit code 2

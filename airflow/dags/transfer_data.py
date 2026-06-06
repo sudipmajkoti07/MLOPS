@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta
 import pandas as pd
 from sqlalchemy import create_engine, text
@@ -9,7 +10,7 @@ import os
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2023, 1, 1),
+    'start_date': datetime(2026, 6, 6),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
@@ -76,7 +77,7 @@ with DAG(
     'transfer_train_data_to_mariadb',
     default_args=default_args,
     description='A DAG to transfer train.csv data into MariaDB ColumnStore',
-    schedule=None,
+    schedule=timedelta(days=7),
     catchup=False,
 ) as dag:
 
@@ -85,4 +86,9 @@ with DAG(
         python_callable=transfer_data,
     )
 
-    transfer_task
+    trigger_preprocess = TriggerDagRunOperator(
+        task_id='trigger_preprocess',
+        trigger_dag_id='preprocess_loan_data',
+    )
+
+    transfer_task >> trigger_preprocess
