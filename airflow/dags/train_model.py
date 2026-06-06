@@ -10,7 +10,7 @@ import redis
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
@@ -85,11 +85,24 @@ def train_logistic_regression():
         ]
     )
 
-    model = Pipeline(
+    base_model = Pipeline(
         steps=[
             ('preprocessor', preprocessor),
             ('classifier', LogisticRegression(max_iter=5000, random_state=42)),
         ]
+    )
+
+    param_grid = {
+        'classifier__C': [0.01, 0.1, 1.0, 10.0, 100.0],
+        'classifier__solver': ['lbfgs', 'liblinear']
+    }
+
+    model = GridSearchCV(
+        base_model,
+        param_grid=param_grid,
+        cv=5,
+        scoring='roc_auc',
+        n_jobs=-1
     )
 
     print(f"Connecting to MLflow at {MLFLOW_TRACKING_URI}...")
@@ -109,7 +122,7 @@ def train_logistic_regression():
     mlflow.set_experiment(MLFLOW_EXPERIMENT)
 
     with mlflow.start_run(run_name='logistic_regression_training') as run:
-        print("Training logistic regression model...")
+        print("Training logistic regression model with GridSearchCV...")
         model.fit(X_train, y_train)
 
         y_pred = model.predict(X_test)
@@ -123,6 +136,11 @@ def train_logistic_regression():
         mlflow.log_param('test_size', 0.2)
         mlflow.log_param('random_state', 42)
         mlflow.log_param('features', ', '.join(CATEGORICAL_FEATURES + NUMERIC_FEATURES))
+        
+        print(f"Best parameters from GridSearchCV: {model.best_params_}")
+        for param_name, param_value in model.best_params_.items():
+            mlflow.log_param(param_name, param_value)
+
         mlflow.log_metric('accuracy', accuracy)
         mlflow.log_metric('f1_score', f1)
         mlflow.log_metric('roc_auc', roc_auc)
@@ -131,7 +149,7 @@ def train_logistic_regression():
 
         print(f"Logging model to MLflow...")
         model_info = mlflow.sklearn.log_model(
-            sk_model=model,
+            sk_model=model.best_estimator_,
             artifact_path='model',
             input_example=X_train.head(5),
         )

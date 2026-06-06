@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.exceptions import AirflowSkipException
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 import redis
 import json
@@ -77,7 +77,7 @@ with DAG(
     'drift_check_dag',
     default_args=default_args,
     description='Check data drift using Evidently AI and save HTML report',
-    schedule=None,
+    schedule=timedelta(days=7),
     catchup=False,
 ) as dag:
 
