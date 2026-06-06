@@ -9,6 +9,7 @@ from mlflow.tracking import MlflowClient
 from contextlib import asynccontextmanager
 import json
 import redis
+import asyncio
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 MLFLOW_TRACKING_URI   = os.getenv("MLFLOW_TRACKING_URI", "http://mlflow:5000")
@@ -36,6 +37,10 @@ def load_latest_model():
 
     # Pick the most recently created version (highest version number)
     latest = sorted(versions, key=lambda v: int(v.version), reverse=True)[0]
+    
+    if model_state.get("version") == latest.version:
+        return
+
     model_uri = f"models:/{REGISTERED_MODEL_NAME}/{latest.version}"
 
     print(f"[MLflow] Loading model '{REGISTERED_MODEL_NAME}' version {latest.version} …")
@@ -47,6 +52,14 @@ def load_latest_model():
     model_state["run_id"]  = latest.run_id
 
 
+async def periodic_model_reload():
+    while True:
+        await asyncio.sleep(5)  # Check for model updates every 5 seconds
+        try:
+            await asyncio.to_thread(load_latest_model)
+        except Exception as e:
+            print(f"[WARNING] Background model reload failed: {e}")
+
 # ─── Lifespan (startup / shutdown) ────────────────────────────────────────────
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -54,7 +67,10 @@ async def lifespan(app: FastAPI):
         load_latest_model()
     except Exception as e:
         print(f"[WARNING] Could not load model at startup: {e}")
+    
+    task = asyncio.create_task(periodic_model_reload())
     yield
+    task.cancel()
 
 
 # ─── App ──────────────────────────────────────────────────────────────────────
@@ -130,27 +146,13 @@ def health():
 def model_info():
     """Return metadata about the currently loaded model."""
     if model_state["model"] is None:
-        raise HTTPException(status_code=503, detail="Model not loaded. Call /model/reload first.")
+        raise HTTPException(status_code=503, detail="Model not loaded.")
     return ModelInfoResponse(
         model_name=REGISTERED_MODEL_NAME,
         model_version=model_state["version"],
         run_id=model_state["run_id"],
         tracking_uri=MLFLOW_TRACKING_URI,
     )
-
-
-@app.post("/model/reload", tags=["Model"])
-def reload_model():
-    """Force reload the latest model version from MLflow."""
-    try:
-        load_latest_model()
-        return {
-            "message": "Model reloaded successfully.",
-            "model_version": model_state["version"],
-            "run_id": model_state["run_id"],
-        }
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.post("/predict", response_model=PredictionResponse, tags=["Prediction"])
