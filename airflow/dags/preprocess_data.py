@@ -42,7 +42,10 @@ def preprocess_loan_data():
     print("Dropping id and grade_subgrade columns...")
     df = df.drop(columns=['id', 'grade_subgrade'], errors='raise')
 
-    numeric_columns = df.select_dtypes(include=['number']).columns.tolist()
+    numeric_columns = [
+        col for col in df.select_dtypes(include=['number']).columns.tolist()
+        if col != 'loan_paid_back'
+    ]
     print(f"Removing outliers from numeric columns: {numeric_columns}")
 
     rows_before = len(df)

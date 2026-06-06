@@ -11,7 +11,8 @@ x-airflow-common:
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pandas pymysql sqlalchemy cryptography redis}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pandas pymysql sqlalchemy cryptography redis mlflow==2.16.0 scikit-learn}
+    MLFLOW_TRACKING_URI: http://mlflow:5000
   volumes:
     - ./airflow/dags:/opt/airflow/dags
     - ./airflow/logs:/opt/airflow/logs
@@ -21,6 +22,7 @@ x-airflow-common:
     - postgres
     - mariadb
     - redis
+    - mlflow
 
 services:
   postgres:
@@ -47,6 +49,7 @@ services:
       - postgres
       - mariadb
       - redis
+      - mlflow
       - airflow-init
 
   airflow-scheduler:
@@ -62,6 +65,7 @@ services:
       - postgres
       - mariadb
       - redis
+      - mlflow
       - airflow-init
 
   airflow-init:
@@ -102,8 +106,23 @@ services:
     command: redis-server --appendonly yes
     restart: always
 
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.16.0
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflow-data-volume:/mlflow
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri sqlite:///mlflow/mlflow.db
+      --default-artifact-root /mlflow/artifacts
+    restart: always
+
 volumes:
   postgres-db-volume:
   mariadb-data-volume:
   columnstore-data-volume:
   redis-data-volume:
+  mlflow-data-volume:
