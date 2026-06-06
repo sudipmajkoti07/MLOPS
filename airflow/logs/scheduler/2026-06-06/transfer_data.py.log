@@ -9686,3 +9686,521 @@
 [2026-06-06T15:40:15.247+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:40:15.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-06T15:40:15.268+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:40:15.268+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
 [2026-06-06T15:40:15.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.613 seconds
+[2026-06-06T15:40:45.693+0000] {processor.py:161} INFO - Started process (PID=50143) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:40:45.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:40:45.711+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:40:45.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:40:46.284+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:40:46.318+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:40:46.317+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:40:46.343+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:40:46.343+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:40:46.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.704 seconds
+[2026-06-06T15:41:16.734+0000] {processor.py:161} INFO - Started process (PID=50198) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:41:16.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:41:16.750+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:41:16.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:41:17.168+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:41:17.188+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:41:17.188+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:41:17.210+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:41:17.210+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:41:17.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.528 seconds
+[2026-06-06T15:41:47.750+0000] {processor.py:161} INFO - Started process (PID=50259) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:41:47.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:41:47.754+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:41:47.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:41:48.147+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:41:48.170+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:41:48.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:41:48.193+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:41:48.193+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:41:48.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.469 seconds
+[2026-06-06T15:42:19.220+0000] {processor.py:161} INFO - Started process (PID=50313) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:42:19.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:42:19.230+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:42:19.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:42:19.509+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:42:19.529+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:42:19.528+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:42:19.551+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:42:19.551+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:42:19.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.374 seconds
+[2026-06-06T15:42:50.157+0000] {processor.py:161} INFO - Started process (PID=50374) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:42:50.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:42:50.165+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:42:50.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:42:50.458+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:42:50.479+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:42:50.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:42:50.497+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:42:50.497+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:42:50.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.381 seconds
+[2026-06-06T15:43:21.193+0000] {processor.py:161} INFO - Started process (PID=50428) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:43:21.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:43:21.202+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:43:21.200+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:43:21.495+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:43:21.514+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:43:21.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:43:21.535+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:43:21.535+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:43:21.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.378 seconds
+[2026-06-06T15:43:51.815+0000] {processor.py:161} INFO - Started process (PID=50489) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:43:51.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:43:51.825+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:43:51.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:43:52.160+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:43:52.181+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:43:52.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:43:52.200+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:43:52.200+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:43:52.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.423 seconds
+[2026-06-06T15:44:22.852+0000] {processor.py:161} INFO - Started process (PID=50543) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:44:22.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:44:22.858+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:44:22.857+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:44:23.148+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:44:23.168+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:44:23.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:44:23.187+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:44:23.187+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:44:23.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.371 seconds
+[2026-06-06T15:44:53.621+0000] {processor.py:161} INFO - Started process (PID=50602) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:44:53.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:44:53.624+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:44:53.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:44:53.886+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:44:53.906+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:44:53.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:44:53.926+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:44:53.926+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:44:53.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.329 seconds
+[2026-06-06T15:45:24.391+0000] {processor.py:161} INFO - Started process (PID=50644) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:45:24.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:45:24.400+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:45:24.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:45:24.703+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:45:24.722+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:45:24.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:45:24.739+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:45:24.739+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:45:24.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.390 seconds
+[2026-06-06T15:45:54.955+0000] {processor.py:161} INFO - Started process (PID=50706) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:45:54.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:45:54.965+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:45:54.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:45:55.362+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:45:55.381+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:45:55.381+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:45:55.400+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:45:55.400+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:45:55.424+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.493 seconds
+[2026-06-06T15:46:26.046+0000] {processor.py:161} INFO - Started process (PID=50760) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:46:26.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:46:26.054+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:46:26.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:46:26.387+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:46:26.407+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:46:26.407+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:46:26.425+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:46:26.425+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:46:26.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.428 seconds
+[2026-06-06T15:46:56.747+0000] {processor.py:161} INFO - Started process (PID=50821) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:46:56.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:46:56.752+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:46:56.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:46:57.056+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:46:57.076+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:46:57.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:46:57.094+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:46:57.094+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:46:57.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.383 seconds
+[2026-06-06T15:47:27.643+0000] {processor.py:161} INFO - Started process (PID=50875) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:47:27.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:47:27.653+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:47:27.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:47:28.008+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:47:28.027+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:47:28.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:47:28.049+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:47:28.049+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:47:28.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.458 seconds
+[2026-06-06T15:47:58.413+0000] {processor.py:161} INFO - Started process (PID=50936) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:47:58.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:47:58.420+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:47:58.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:47:58.746+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:47:58.765+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:47:58.765+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:47:58.784+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:47:58.784+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:47:58.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.423 seconds
+[2026-06-06T15:48:28.967+0000] {processor.py:161} INFO - Started process (PID=50991) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:48:28.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:48:28.970+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:48:28.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:48:29.242+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:48:29.263+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:48:29.262+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:48:29.280+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:48:29.280+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:48:29.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.343 seconds
+[2026-06-06T15:48:59.506+0000] {processor.py:161} INFO - Started process (PID=51038) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:48:59.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:48:59.510+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:48:59.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:49:00.190+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:49:00.225+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:49:00.224+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:49:00.266+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:49:00.265+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:49:00.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.790 seconds
+[2026-06-06T15:49:30.550+0000] {processor.py:161} INFO - Started process (PID=51093) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:49:30.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:49:30.554+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:49:30.554+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:49:31.091+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:49:31.113+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:49:31.113+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:49:31.132+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:49:31.132+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:49:31.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.626 seconds
+[2026-06-06T15:50:01.317+0000] {processor.py:161} INFO - Started process (PID=51147) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:50:01.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:50:01.320+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:50:01.320+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:50:01.684+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:50:01.713+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:50:01.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:50:01.749+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:50:01.748+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:50:01.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.488 seconds
+[2026-06-06T15:50:31.920+0000] {processor.py:161} INFO - Started process (PID=51198) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:50:31.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:50:31.923+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:50:31.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:50:32.333+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:50:32.363+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:50:32.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:50:32.388+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:50:32.387+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:50:32.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.509 seconds
+[2026-06-06T15:51:02.985+0000] {processor.py:161} INFO - Started process (PID=51249) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:51:02.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:51:02.994+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:51:02.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:51:04.087+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:51:04.136+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:51:04.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:51:04.213+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:51:04.212+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:51:04.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 1.293 seconds
+[2026-06-06T15:51:34.696+0000] {processor.py:161} INFO - Started process (PID=51303) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:51:34.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:51:34.702+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:51:34.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:51:35.290+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:51:35.324+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:51:35.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:51:35.382+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:51:35.382+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:51:35.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.730 seconds
+[2026-06-06T15:52:05.977+0000] {processor.py:161} INFO - Started process (PID=51357) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:52:05.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:52:05.980+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:52:05.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:52:06.324+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:52:06.346+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:52:06.346+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:52:06.373+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:52:06.373+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:52:06.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.429 seconds
+[2026-06-06T15:52:36.576+0000] {processor.py:161} INFO - Started process (PID=51418) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:52:36.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:52:36.583+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:52:36.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:52:37.512+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:52:37.580+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:52:37.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:52:37.654+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:52:37.654+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:52:37.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 1.151 seconds
+[2026-06-06T15:53:08.143+0000] {processor.py:161} INFO - Started process (PID=51472) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:53:08.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:53:08.149+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:53:08.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:53:08.682+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:53:08.707+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:53:08.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:53:08.735+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:53:08.735+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:53:08.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.648 seconds
+[2026-06-06T15:53:39.733+0000] {processor.py:161} INFO - Started process (PID=51524) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:53:39.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:53:39.739+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:53:39.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:53:40.463+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:53:40.512+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:53:40.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:53:40.567+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:53:40.566+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:53:40.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.884 seconds
+[2026-06-06T15:54:11.488+0000] {processor.py:161} INFO - Started process (PID=51566) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:54:11.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:54:11.492+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:54:11.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:54:11.912+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:54:11.935+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:54:11.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:54:11.962+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:54:11.962+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:54:11.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.516 seconds
+[2026-06-06T15:54:42.246+0000] {processor.py:161} INFO - Started process (PID=51620) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:54:42.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:54:42.269+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:54:42.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:54:42.850+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:54:42.884+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:54:42.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:54:42.915+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:54:42.915+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:54:42.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.735 seconds
+[2026-06-06T15:55:13.096+0000] {processor.py:161} INFO - Started process (PID=51681) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:55:13.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:55:13.100+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:55:13.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:55:13.473+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:55:13.501+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:55:13.500+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:55:13.526+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:55:13.526+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:55:13.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.462 seconds
+[2026-06-06T15:55:43.914+0000] {processor.py:161} INFO - Started process (PID=51735) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:55:43.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:55:43.917+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:55:43.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:55:44.211+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:55:44.232+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:55:44.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:55:44.254+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:55:44.253+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:55:44.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.430 seconds
+[2026-06-06T15:56:14.714+0000] {processor.py:161} INFO - Started process (PID=51789) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:56:14.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:56:14.718+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:56:14.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:56:15.116+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:56:15.143+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:56:15.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:56:15.171+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:56:15.171+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:56:15.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.492 seconds
+[2026-06-06T15:56:45.586+0000] {processor.py:161} INFO - Started process (PID=51842) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:56:45.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:56:45.592+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:56:45.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:56:46.204+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:56:46.262+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:56:46.261+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:56:46.310+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:56:46.310+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:56:46.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.785 seconds
+[2026-06-06T15:57:16.783+0000] {processor.py:161} INFO - Started process (PID=51890) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:57:16.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:57:16.788+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:57:16.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:57:17.407+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:57:17.439+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:57:17.439+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:57:17.468+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:57:17.468+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:57:17.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.724 seconds
+[2026-06-06T15:57:48.101+0000] {processor.py:161} INFO - Started process (PID=51942) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:57:48.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:57:48.109+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:57:48.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:57:48.534+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:57:48.565+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:57:48.565+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:57:48.600+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:57:48.600+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:57:48.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.544 seconds
+[2026-06-06T15:58:19.024+0000] {processor.py:161} INFO - Started process (PID=51984) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:58:19.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:58:19.036+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:58:19.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:58:19.882+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:58:19.910+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:58:19.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:58:19.934+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:58:19.934+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:58:19.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.974 seconds
+[2026-06-06T15:58:50.578+0000] {processor.py:161} INFO - Started process (PID=52045) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:58:50.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:58:50.585+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:58:50.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:58:50.892+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:58:50.911+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:58:50.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:58:50.930+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:58:50.930+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:58:50.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.400 seconds
+[2026-06-06T15:59:21.214+0000] {processor.py:161} INFO - Started process (PID=52099) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:59:21.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:59:21.218+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:59:21.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:59:21.548+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:59:21.581+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:59:21.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:59:21.615+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:59:21.614+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:59:21.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.438 seconds
+[2026-06-06T15:59:51.939+0000] {processor.py:161} INFO - Started process (PID=52160) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:59:51.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T15:59:51.946+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:59:51.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:59:52.395+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T15:59:52.431+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:59:52.430+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T15:59:52.463+0000] {logging_mixin.py:188} INFO - [2026-06-06T15:59:52.462+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T15:59:52.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.567 seconds
+[2026-06-06T16:00:23.105+0000] {processor.py:161} INFO - Started process (PID=52214) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:00:23.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:00:23.109+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:00:23.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:00:23.551+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:00:23.578+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:00:23.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:00:23.616+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:00:23.615+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:00:23.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.556 seconds
+[2026-06-06T16:00:54.134+0000] {processor.py:161} INFO - Started process (PID=52268) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:00:54.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:00:54.138+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:00:54.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:00:54.534+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:00:54.560+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:00:54.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:00:54.583+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:00:54.583+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:00:54.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.499 seconds
+[2026-06-06T16:01:24.784+0000] {processor.py:161} INFO - Started process (PID=52329) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:01:24.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:01:24.792+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:01:24.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:01:25.106+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:01:25.125+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:01:25.125+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:01:25.144+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:01:25.143+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:01:25.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.399 seconds
+[2026-06-06T16:01:55.788+0000] {processor.py:161} INFO - Started process (PID=52383) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:01:55.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:01:55.797+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:01:55.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:01:56.164+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:01:56.197+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:01:56.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:01:56.221+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:01:56.221+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:01:56.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.493 seconds
+[2026-06-06T16:02:27.002+0000] {processor.py:161} INFO - Started process (PID=52443) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:02:27.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:02:27.009+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:02:27.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:02:27.495+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:02:27.531+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:02:27.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:02:27.565+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:02:27.565+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:02:27.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.610 seconds
+[2026-06-06T16:02:57.735+0000] {processor.py:161} INFO - Started process (PID=52485) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:02:57.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:02:57.743+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:02:57.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:02:58.255+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:02:58.285+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:02:58.285+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:02:58.316+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:02:58.316+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:02:58.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.634 seconds
+[2026-06-06T16:03:28.595+0000] {processor.py:161} INFO - Started process (PID=52539) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:03:28.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:03:28.600+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:03:28.600+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:03:28.998+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:03:29.036+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:03:29.035+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:03:29.068+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:03:29.067+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:03:29.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.519 seconds
+[2026-06-06T16:03:59.330+0000] {processor.py:161} INFO - Started process (PID=52600) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:03:59.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:03:59.333+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:03:59.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:03:59.855+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:03:59.906+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:03:59.905+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:03:59.984+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:03:59.983+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:04:00.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.702 seconds
+[2026-06-06T16:04:30.201+0000] {processor.py:161} INFO - Started process (PID=52653) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:04:30.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:04:30.206+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:04:30.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:04:30.725+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:04:30.768+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:04:30.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:04:30.816+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:04:30.816+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:04:30.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.674 seconds
+[2026-06-06T16:05:01.424+0000] {processor.py:161} INFO - Started process (PID=52707) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:05:01.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:05:01.433+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:05:01.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:05:01.937+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:05:01.962+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:05:01.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:05:01.991+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:05:01.991+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:05:02.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.618 seconds
+[2026-06-06T16:05:32.423+0000] {processor.py:161} INFO - Started process (PID=52761) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:05:32.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:05:32.430+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:05:32.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:05:32.874+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:05:32.915+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:05:32.913+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:05:33.028+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:05:33.028+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:05:33.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.661 seconds
+[2026-06-06T16:06:03.673+0000] {processor.py:161} INFO - Started process (PID=52822) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:06:03.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:06:03.678+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:06:03.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:06:04.117+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:06:04.141+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:06:04.140+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:06:04.178+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:06:04.178+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:06:04.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.562 seconds
+[2026-06-06T16:06:35.092+0000] {processor.py:161} INFO - Started process (PID=52874) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:06:35.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:06:35.096+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:06:35.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:06:35.476+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:06:35.500+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:06:35.499+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:06:35.521+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:06:35.521+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:06:35.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.465 seconds
+[2026-06-06T16:07:06.307+0000] {processor.py:161} INFO - Started process (PID=52916) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:07:06.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:07:06.323+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:07:06.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:07:06.709+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:07:06.731+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:07:06.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:07:06.752+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:07:06.752+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:07:06.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.515 seconds
+[2026-06-06T16:07:37.063+0000] {processor.py:161} INFO - Started process (PID=52968) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:07:37.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:07:37.068+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:07:37.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:07:37.630+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:07:37.658+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:07:37.657+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:07:37.686+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:07:37.686+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:07:37.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.660 seconds
+[2026-06-06T16:08:07.877+0000] {processor.py:161} INFO - Started process (PID=53018) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:08:07.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:08:07.881+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:08:07.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:08:08.318+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:08:08.354+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:08:08.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:08:08.387+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:08:08.387+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:08:08.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.553 seconds
+[2026-06-06T16:08:39.169+0000] {processor.py:161} INFO - Started process (PID=53072) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:08:39.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:08:39.177+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:08:39.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:08:40.086+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:08:40.142+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:08:40.141+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:08:40.214+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:08:40.212+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:08:40.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 1.121 seconds
+[2026-06-06T16:09:10.728+0000] {processor.py:161} INFO - Started process (PID=53127) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:09:10.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:09:10.739+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:09:10.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:09:11.421+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:09:11.501+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:09:11.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:09:11.544+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:09:11.544+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:09:11.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.870 seconds
+[2026-06-06T16:09:42.172+0000] {processor.py:161} INFO - Started process (PID=53180) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:09:42.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:09:42.177+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:09:42.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:09:42.576+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:09:42.606+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:09:42.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:09:42.642+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:09:42.641+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:09:42.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.512 seconds
+[2026-06-06T16:10:12.864+0000] {processor.py:161} INFO - Started process (PID=53232) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:10:12.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:10:12.871+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:10:12.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:10:13.332+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:10:13.360+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:10:13.360+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:10:13.394+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:10:13.394+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:10:13.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.578 seconds
+[2026-06-06T16:10:43.660+0000] {processor.py:161} INFO - Started process (PID=53281) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:10:43.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:10:43.664+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:10:43.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:10:44.067+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:10:44.112+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:10:44.112+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:10:44.139+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:10:44.139+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:10:44.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.520 seconds
+[2026-06-06T16:11:14.394+0000] {processor.py:161} INFO - Started process (PID=53335) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:11:14.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:11:14.400+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:11:14.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:11:14.967+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:11:15.005+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:11:15.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:11:15.052+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:11:15.051+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:11:15.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.709 seconds
+[2026-06-06T16:11:45.819+0000] {processor.py:161} INFO - Started process (PID=53389) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:11:45.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:11:45.823+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:11:45.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:11:46.145+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:11:46.166+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:11:46.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:11:46.187+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:11:46.187+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:11:46.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.395 seconds
+[2026-06-06T16:12:16.558+0000] {processor.py:161} INFO - Started process (PID=53444) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:12:16.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:12:16.567+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:12:16.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:12:16.902+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:12:16.921+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:12:16.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:12:16.941+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:12:16.941+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:12:16.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.451 seconds
+[2026-06-06T16:12:47.420+0000] {processor.py:161} INFO - Started process (PID=53498) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:12:47.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:12:47.433+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:12:47.431+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:12:48.042+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:12:48.085+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:12:48.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:12:48.127+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:12:48.127+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:12:48.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.767 seconds
+[2026-06-06T16:13:18.279+0000] {processor.py:161} INFO - Started process (PID=53559) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:13:18.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:13:18.287+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:13:18.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:13:18.824+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:13:18.846+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:13:18.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:13:18.877+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:13:18.876+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:13:18.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.644 seconds
+[2026-06-06T16:13:49.360+0000] {processor.py:161} INFO - Started process (PID=53613) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:13:49.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:13:49.365+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:13:49.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:13:50.050+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:13:50.081+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:13:50.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:13:50.104+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:13:50.104+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:13:50.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.783 seconds
+[2026-06-06T16:14:20.395+0000] {processor.py:161} INFO - Started process (PID=53665) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:14:20.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:14:20.402+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:14:20.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:14:22.023+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:14:22.263+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:14:22.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:14:22.380+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:14:22.379+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:14:22.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 2.137 seconds
+[2026-06-06T16:14:52.964+0000] {processor.py:161} INFO - Started process (PID=53707) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:14:52.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:14:52.972+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:14:52.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:14:53.315+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:14:53.336+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:14:53.335+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:14:53.358+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:14:53.358+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:14:53.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.438 seconds
+[2026-06-06T16:15:23.726+0000] {processor.py:161} INFO - Started process (PID=53769) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:15:23.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:15:23.760+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:15:23.760+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:15:24.174+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:15:24.197+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:15:24.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:15:24.218+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:15:24.218+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:15:24.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.525 seconds
+[2026-06-06T16:15:54.513+0000] {processor.py:161} INFO - Started process (PID=53823) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:15:54.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:15:54.524+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:15:54.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:15:54.855+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:15:54.877+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:15:54.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:15:54.897+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:15:54.897+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:15:54.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.444 seconds
+[2026-06-06T16:16:25.123+0000] {processor.py:161} INFO - Started process (PID=53876) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:16:25.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:16:25.163+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:16:25.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:16:25.869+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:16:25.957+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:16:25.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:16:26.179+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:16:26.178+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:16:26.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 1.479 seconds
+[2026-06-06T16:16:57.377+0000] {processor.py:161} INFO - Started process (PID=53916) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:16:57.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:16:57.389+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:16:57.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:16:59.156+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:16:59.540+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:16:59.533+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:16:59.678+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:16:59.677+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:16:59.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 2.400 seconds
+[2026-06-06T16:17:30.497+0000] {processor.py:161} INFO - Started process (PID=53958) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:17:30.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:17:30.501+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:17:30.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:17:30.959+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:17:31.021+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:17:31.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:17:31.060+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:17:31.059+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:17:31.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.603 seconds
+[2026-06-06T16:18:01.326+0000] {processor.py:161} INFO - Started process (PID=54012) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:18:01.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:18:01.335+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:18:01.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:18:02.009+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:18:02.049+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:18:02.048+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:18:02.105+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:18:02.105+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:18:02.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.846 seconds
+[2026-06-06T16:18:32.963+0000] {processor.py:161} INFO - Started process (PID=54068) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:18:32.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T16:18:32.970+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:18:32.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:18:33.603+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T16:18:33.664+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:18:33.663+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T16:18:33.700+0000] {logging_mixin.py:188} INFO - [2026-06-06T16:18:33.699+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to 2026-06-06 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-06T16:18:33.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.794 seconds
