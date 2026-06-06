@@ -4793,3 +4793,17 @@
 [2026-06-06T09:39:43.064+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:39:43.063+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-06T09:39:43.073+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:39:43.073+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to None, run_after=None
 [2026-06-06T09:39:43.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.487 seconds
+[2026-06-06T09:40:13.279+0000] {processor.py:161} INFO - Started process (PID=10873) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T09:40:13.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T09:40:13.283+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:13.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T09:40:13.729+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T09:40:13.751+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:13.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T09:40:13.760+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:13.760+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to None, run_after=None
+[2026-06-06T09:40:13.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.517 seconds
+[2026-06-06T09:40:44.437+0000] {processor.py:161} INFO - Started process (PID=10927) to work on /opt/airflow/dags/transfer_data.py
+[2026-06-06T09:40:44.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2026-06-06T09:40:44.445+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:44.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2026-06-06T09:40:44.753+0000] {processor.py:840} INFO - DAG(s) 'transfer_train_data_to_mariadb' retrieved from /opt/airflow/dags/transfer_data.py
+[2026-06-06T09:40:44.781+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:44.780+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T09:40:44.943+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:44.943+0000] {dag.py:3954} INFO - Setting next_dagrun for transfer_train_data_to_mariadb to None, run_after=None
+[2026-06-06T09:40:44.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.551 seconds

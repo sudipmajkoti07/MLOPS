@@ -2732,3 +2732,17 @@ Please take a look at these docs to improve your DAG import time:
 [2026-06-06T09:39:49.824+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:39:49.824+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-06T09:39:49.832+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:39:49.832+0000] {dag.py:3954} INFO - Setting next_dagrun for train_loan_model to None, run_after=None
 [2026-06-06T09:39:49.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_model.py took 1.639 seconds
+[2026-06-06T09:40:19.995+0000] {processor.py:161} INFO - Started process (PID=10882) to work on /opt/airflow/dags/train_model.py
+[2026-06-06T09:40:19.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_model.py for tasks to queue
+[2026-06-06T09:40:20.002+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:20.001+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/train_model.py
+[2026-06-06T09:40:21.633+0000] {processor.py:840} INFO - DAG(s) 'train_loan_model' retrieved from /opt/airflow/dags/train_model.py
+[2026-06-06T09:40:21.653+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:21.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T09:40:21.662+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:21.662+0000] {dag.py:3954} INFO - Setting next_dagrun for train_loan_model to None, run_after=None
+[2026-06-06T09:40:21.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_model.py took 1.706 seconds
+[2026-06-06T09:40:52.143+0000] {processor.py:161} INFO - Started process (PID=10943) to work on /opt/airflow/dags/train_model.py
+[2026-06-06T09:40:52.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_model.py for tasks to queue
+[2026-06-06T09:40:52.146+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:52.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/train_model.py
+[2026-06-06T09:40:53.748+0000] {processor.py:840} INFO - DAG(s) 'train_loan_model' retrieved from /opt/airflow/dags/train_model.py
+[2026-06-06T09:40:53.772+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:53.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T09:40:53.784+0000] {logging_mixin.py:188} INFO - [2026-06-06T09:40:53.783+0000] {dag.py:3954} INFO - Setting next_dagrun for train_loan_model to None, run_after=None
+[2026-06-06T09:40:53.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_model.py took 1.671 seconds
