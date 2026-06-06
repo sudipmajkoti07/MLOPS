@@ -1,0 +1,50 @@
+[2026-06-06T06:50:24.827+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-06T06:50:24.855+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_loan_model.train_and_register_model manual__2026-06-06T06:50:22+00:00 [queued]>
+[2026-06-06T06:50:24.862+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_loan_model.train_and_register_model manual__2026-06-06T06:50:22+00:00 [queued]>
+[2026-06-06T06:50:24.863+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-06-06T06:50:24.875+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): train_and_register_model> on 2026-06-06 06:50:22+00:00
+[2026-06-06T06:50:24.885+0000] {standard_task_runner.py:63} INFO - Started process 1265 to run task
+[2026-06-06T06:50:24.888+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'train_loan_model', 'train_and_register_model', 'manual__2026-06-06T06:50:22+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/train_model.py', '--cfg-path', '/tmp/tmpojemwudy']
+[2026-06-06T06:50:24.892+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask train_and_register_model
+[2026-06-06T06:50:24.944+0000] {task_command.py:426} INFO - Running <TaskInstance: train_loan_model.train_and_register_model manual__2026-06-06T06:50:22+00:00 [running]> on host bc05c2d40a98
+[2026-06-06T06:50:25.012+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='train_loan_model' AIRFLOW_CTX_TASK_ID='train_and_register_model' AIRFLOW_CTX_EXECUTION_DATE='2026-06-06T06:50:22+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-06T06:50:22+00:00'
+[2026-06-06T06:50:25.015+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-06T06:50:25.025+0000] {logging_mixin.py:188} INFO - Connecting to Redis...
+[2026-06-06T06:50:25.773+0000] {logging_mixin.py:188} INFO - Loading preprocessed data from Redis key 'preprocess'...
+[2026-06-06T06:50:30.246+0000] {logging_mixin.py:188} INFO - Loaded 547754 rows with columns: ['gender', 'marital_status', 'education_level', 'employment_status', 'loan_purpose', 'annual_income', 'loan_amount', 'credit_score', 'interest_rate', 'debt_to_income_ratio', 'loan_paid_back']
+[2026-06-06T06:50:31.158+0000] {logging_mixin.py:188} INFO - Connecting to MLflow at http://mlflow:5000...
+[2026-06-06T06:50:31.269+0000] {logging_mixin.py:188} WARNING - 2026/06/06 06:50:31 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2026-06-06T06:50:31.305+0000] {logging_mixin.py:188} INFO - Training logistic regression model...
+[2026-06-06T06:50:36.465+0000] {logging_mixin.py:188} INFO - Accuracy: 0.9058, F1: 0.9439, ROC-AUC: 0.9068
+[2026-06-06T06:50:36.465+0000] {logging_mixin.py:188} INFO - Logging model to MLflow...
+[2026-06-06T06:50:36.585+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.11/site-packages/mlflow/types/utils.py:407 UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+[2026-06-06T06:50:36.592+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.11/site-packages/mlflow/types/utils.py:407 UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+[2026-06-06T06:50:41.735+0000] {logging_mixin.py:188} INFO - Registering model as 'loan_logistic_regression'...
+[2026-06-06T06:50:41.809+0000] {logging_mixin.py:188} WARNING - Successfully registered model 'loan_logistic_regression'.
+[2026-06-06T06:50:41.852+0000] {logging_mixin.py:188} WARNING - 2026/06/06 06:50:41 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: loan_logistic_regression, version 1
+[2026-06-06T06:50:41.853+0000] {logging_mixin.py:188} WARNING - Created version '1' of model 'loan_logistic_regression'.
+[2026-06-06T06:50:41.853+0000] {logging_mixin.py:188} INFO - Model logged to MLflow run_id: 86e1e1df859542dfbc80a267b1ea1378
+[2026-06-06T06:50:41.854+0000] {logging_mixin.py:188} INFO - Model registered as: loan_logistic_regression
+[2026-06-06T06:50:41.870+0000] {logging_mixin.py:188} WARNING - 2026/06/06 06:50:41 INFO mlflow.tracking._tracking_service.client: 🏃 View run logistic_regression_training at: http://mlflow:5000/#/experiments/1/runs/86e1e1df859542dfbc80a267b1ea1378.
+[2026-06-06T06:50:41.870+0000] {logging_mixin.py:188} WARNING - 2026/06/06 06:50:41 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5000/#/experiments/1.
+[2026-06-06T06:50:42.583+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-06-06T06:50:42.584+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-06T06:50:42.595+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=train_loan_model, task_id=train_and_register_model, run_id=manual__2026-06-06T06:50:22+00:00, execution_date=20260606T065022, start_date=20260606T065024, end_date=20260606T065042
+[2026-06-06T06:50:42.674+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-06T06:50:42.693+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-06T06:50:42.697+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

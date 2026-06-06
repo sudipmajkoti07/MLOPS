@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
 
 import mlflow
@@ -18,8 +18,7 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(2023, 1, 1),
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retries': 0,
 }
 
 REDIS_KEY = 'preprocess'
@@ -97,6 +96,18 @@ def train_logistic_regression():
 
     print(f"Connecting to MLflow at {MLFLOW_TRACKING_URI}...")
     mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+
+    # Auto-restore experiment if it was soft-deleted
+    from mlflow.tracking import MlflowClient
+    from mlflow.entities import ViewType
+    _client = MlflowClient()
+    _deleted = _client.search_experiments(view_type=ViewType.DELETED_ONLY)
+    for _exp in _deleted:
+        if _exp.name == MLFLOW_EXPERIMENT:
+            print(f"Experiment '{MLFLOW_EXPERIMENT}' was deleted — restoring it...")
+            _client.restore_experiment(_exp.experiment_id)
+            break
+
     mlflow.set_experiment(MLFLOW_EXPERIMENT)
 
     with mlflow.start_run(run_name='logistic_regression_training') as run:
@@ -143,6 +154,7 @@ with DAG(
     description='Train logistic regression on Redis preprocessed data and register in MLflow',
     schedule=None,
     catchup=False,
+    is_paused_upon_creation=True,
 ) as dag:
 
     train_task = PythonOperator(
