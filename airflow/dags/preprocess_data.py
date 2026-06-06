@@ -39,8 +39,8 @@ def preprocess_loan_data():
     df = pd.read_sql('SELECT * FROM loan_data', engine)
     print(f"Loaded {len(df)} rows.")
 
-    print("Dropping id and grade_subgrade columns...")
-    df = df.drop(columns=['id', 'grade_subgrade'], errors='raise')
+    print("Dropping id, grade_subgrade, and debt_to_income_ratio columns...")
+    df = df.drop(columns=['id', 'grade_subgrade', 'debt_to_income_ratio'], errors='raise')
 
     numeric_columns = [
         col for col in df.select_dtypes(include=['number']).columns.tolist()

@@ -11,7 +11,7 @@ x-airflow-common:
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pandas pymysql sqlalchemy cryptography redis mlflow==2.16.0 scikit-learn}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pandas pymysql sqlalchemy cryptography redis mlflow==2.16.0 scikit-learn evidently==0.4.31}
     MLFLOW_TRACKING_URI: http://mlflow:5000
     GIT_PYTHON_REFRESH: quiet
   volumes:

@@ -7,10 +7,16 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from mlflow.tracking import MlflowClient
 from contextlib import asynccontextmanager
+import json
+import redis
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 MLFLOW_TRACKING_URI   = os.getenv("MLFLOW_TRACKING_URI", "http://mlflow:5000")
 REGISTERED_MODEL_NAME = os.getenv("REGISTERED_MODEL_NAME", "loan_logistic_regression")
+REDIS_HOST            = os.getenv("REDIS_HOST", "redis")
+REDIS_PORT            = int(os.getenv("REDIS_PORT", "6379"))
+
+redis_client = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=0, decode_responses=True)
 
 # ─── Global model holder ───────────────────────────────────────────────────────
 model_state = {"model": None, "version": None, "run_id": None}
@@ -173,7 +179,7 @@ def predict(features: LoanFeatures):
     prob_paid     = float(probability[1])
     prob_not_paid = float(probability[0])
 
-    return PredictionResponse(
+    prediction_response = PredictionResponse(
         prediction=prediction,
         prediction_label="Loan will be paid back ✅" if prediction == 1 else "Loan will NOT be paid back ❌",
         probability_paid_back=round(prob_paid, 4),
@@ -181,3 +187,15 @@ def predict(features: LoanFeatures):
         model_version=model_state["version"],
         model_run_id=model_state["run_id"],
     )
+
+    # Log to Redis
+    log_entry = features.model_dump()
+    log_entry["prediction"] = prediction
+    log_entry["probability_paid_back"] = round(prob_paid, 4)
+    log_entry["probability_not_paid_back"] = round(prob_not_paid, 4)
+    try:
+        redis_client.rpush("prediction_log", json.dumps(log_entry))
+    except Exception as e:
+        print(f"[WARNING] Could not log prediction to Redis: {e}")
+
+    return prediction_response
