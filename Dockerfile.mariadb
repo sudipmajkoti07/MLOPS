@@ -1,0 +1,29 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y curl software-properties-common rsyslog gnupg2 sudo tzdata && \
+    ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
+    dpkg-reconfigure --frontend noninteractive tzdata
+
+# Add MariaDB repository for 10.6
+RUN curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash -s -- --mariadb-server-version=10.6
+
+# Install MariaDB Server and ColumnStore plugin
+RUN apt-get update && \
+    apt-get install -y mariadb-server mariadb-plugin-columnstore
+
+# Create necessary directories
+RUN mkdir -p /var/run/mysqld /docker-entrypoint-initdb.d /var/lib/columnstore/storagemanager && \
+    chown -R mysql:mysql /var/run/mysqld /var/lib/mysql /var/lib/columnstore
+
+COPY mariadb_conf/99-docker.cnf /etc/mysql/mariadb.conf.d/99-docker.cnf
+COPY entrypoint.sh /usr/local/bin/
+COPY start-columnstore.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/entrypoint.sh /usr/local/bin/start-columnstore.sh
+
+ENTRYPOINT ["entrypoint.sh"]
+EXPOSE 3306
+CMD ["mysqld_safe"]

@@ -1,0 +1,109 @@
+version: '3.8'
+
+x-airflow-common:
+  &airflow-common
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.9.2-python3.11}
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pandas pymysql sqlalchemy cryptography redis}
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins
+    - ./:/opt/airflow/data
+  depends_on:
+    - postgres
+    - mariadb
+    - redis
+
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - 8080:8080
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    depends_on:
+      - postgres
+      - mariadb
+      - redis
+      - airflow-init
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    depends_on:
+      - postgres
+      - mariadb
+      - redis
+      - airflow-init
+
+  airflow-init:
+    <<: *airflow-common
+    command: version
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_UPGRADE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: airflow
+      _AIRFLOW_WWW_USER_PASSWORD: airflow
+    depends_on:
+      - postgres
+
+  mariadb:
+    build:
+      context: .
+      dockerfile: Dockerfile.mariadb
+    privileged: true
+    shm_size: "512m"
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: mlops
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb-data-volume:/var/lib/mysql
+      - columnstore-data-volume:/var/lib/columnstore
+      - ./mariadb_init:/docker-entrypoint-initdb.d
+      - ./mariadb_conf/99-docker.cnf:/etc/mysql/mariadb.conf.d/99-docker.cnf:ro
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data-volume:/data
+    command: redis-server --appendonly yes
+    restart: always
+
+volumes:
+  postgres-db-volume:
+  mariadb-data-volume:
+  columnstore-data-volume:
+  redis-data-volume:

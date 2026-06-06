@@ -1,0 +1,22 @@
+[2026-06-06T03:27:45.845+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-06T03:27:45.871+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transfer_train_data_to_mariadb.transfer_csv_to_mariadb manual__2026-06-06T03:27:44.804252+00:00 [queued]>
+[2026-06-06T03:27:45.878+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transfer_train_data_to_mariadb.transfer_csv_to_mariadb manual__2026-06-06T03:27:44.804252+00:00 [queued]>
+[2026-06-06T03:27:45.879+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-06T03:27:45.890+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transfer_csv_to_mariadb> on 2026-06-06 03:27:44.804252+00:00
+[2026-06-06T03:27:45.896+0000] {standard_task_runner.py:63} INFO - Started process 1030 to run task
+[2026-06-06T03:27:45.899+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'transfer_train_data_to_mariadb', 'transfer_csv_to_mariadb', 'manual__2026-06-06T03:27:44.804252+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/transfer_data.py', '--cfg-path', '/tmp/tmprupe4pr6']
+[2026-06-06T03:27:45.902+0000] {standard_task_runner.py:91} INFO - Job 42: Subtask transfer_csv_to_mariadb
+[2026-06-06T03:27:45.953+0000] {task_command.py:426} INFO - Running <TaskInstance: transfer_train_data_to_mariadb.transfer_csv_to_mariadb manual__2026-06-06T03:27:44.804252+00:00 [running]> on host e13f189d62e9
+[2026-06-06T03:27:46.033+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transfer_train_data_to_mariadb' AIRFLOW_CTX_TASK_ID='transfer_csv_to_mariadb' AIRFLOW_CTX_EXECUTION_DATE='2026-06-06T03:27:44.804252+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-06T03:27:44.804252+00:00'
+[2026-06-06T03:27:46.034+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-06T03:27:46.047+0000] {logging_mixin.py:188} INFO - Reading data from /opt/***/data/train.csv...
+[2026-06-06T03:27:46.964+0000] {logging_mixin.py:188} INFO - Cleaning data...
+[2026-06-06T03:27:47.090+0000] {logging_mixin.py:188} INFO - Connecting to MariaDB...
+[2026-06-06T03:27:47.099+0000] {logging_mixin.py:188} INFO - Transferring 593994 rows to MariaDB ColumnStore...
+[2026-06-06T03:31:40.855+0000] {logging_mixin.py:188} INFO - Data transfer complete.
+[2026-06-06T03:31:40.863+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-06-06T03:31:40.864+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-06T03:31:40.873+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=transfer_train_data_to_mariadb, task_id=transfer_csv_to_mariadb, run_id=manual__2026-06-06T03:27:44.804252+00:00, execution_date=20260606T032744, start_date=20260606T032745, end_date=20260606T033140
+[2026-06-06T03:31:40.930+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-06T03:31:40.947+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-06T03:31:40.949+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
