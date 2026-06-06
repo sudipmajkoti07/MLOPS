@@ -12,7 +12,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 default_args = {
     'owner': 'airflow',
@@ -37,6 +37,7 @@ NEW_DF_COLUMNS = [
     'loan_amount',
     'credit_score',
     'interest_rate',
+    'debt_to_income_ratio',
     'loan_paid_back',
 ]
 
@@ -53,6 +54,7 @@ NUMERIC_FEATURES = [
     'loan_amount',
     'credit_score',
     'interest_rate',
+    'debt_to_income_ratio',
 ]
 
 TARGET = 'loan_paid_back'
@@ -67,7 +69,8 @@ def train_logistic_regression():
         raise ValueError(f"Redis key '{REDIS_KEY}' not found. Run the preprocess DAG first.")
 
     print(f"Loading preprocessed data from Redis key '{REDIS_KEY}'...")
-    df = pd.read_json(raw_data, orient='records')
+    from io import StringIO
+    df = pd.read_json(StringIO(raw_data), orient='records')
     df = df[NEW_DF_COLUMNS]
     print(f"Loaded {len(df)} rows with columns: {list(df.columns)}")
 
@@ -81,7 +84,7 @@ def train_logistic_regression():
     preprocessor = ColumnTransformer(
         transformers=[
             ('cat', OneHotEncoder(handle_unknown='ignore'), CATEGORICAL_FEATURES),
-            ('num', 'passthrough', NUMERIC_FEATURES),
+            ('num', StandardScaler(), NUMERIC_FEATURES),
         ]
     )
 

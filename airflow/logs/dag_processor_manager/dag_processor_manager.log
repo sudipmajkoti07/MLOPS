@@ -2878,3 +2878,18 @@ File Path                               PID  Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/transfer_data.py                             1           0  4.80s           2026-06-06T05:34:21
 /opt/airflow/dags/preprocess_data.py    884  1.29s             1           0  3.89s           2026-06-06T05:34:07
 ================================================================================
+[2026-06-06T06:17:24.218+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-06-06T06:17:24.220+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-06-06T06:17:24.222+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-06T06:17:24.225+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-06-06T06:17:24.349+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-06T06:17:24.816+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/preprocess_data.py    246  0.09s             0           0
+/opt/airflow/dags/train_model.py        245  0.10s             0           0
+/opt/airflow/dags/transfer_data.py                             0           0
+================================================================================
