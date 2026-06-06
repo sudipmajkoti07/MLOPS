@@ -147,6 +147,19 @@ services:
       - ./frontend:/usr/share/nginx/html:ro
     restart: always
 
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_TOKEN: "mlops"
+      JUPYTER_ENABLE_LAB: "yes"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    depends_on:
+      - mariadb
+    restart: always
+
 volumes:
   postgres-db-volume:
   mariadb-data-volume:
