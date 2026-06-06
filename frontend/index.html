@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Inline override – ensures hints are always visible */
+        .field-hint {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            margin-top: 6px;
+            font-size: 0.75rem;
+            font-family: 'Inter', sans-serif;
+            color: #3b4a6b;
+            background: #eef2ff;
+            border-left: 4px solid #4f46e5;
+            border-radius: 0 6px 6px 0;
+            padding: 6px 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Loan Predictor</h1>
+            <p>Enter your details below to check your loan approval probability</p>
+        </header>
+
+        <div class="main-content">
+            <form id="prediction-form">
+                <div class="form-grid">
+                    <!-- Categorical Features -->
+                    <div class="input-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" required>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="marital_status">Marital Status</label>
+                        <select id="marital_status" required>
+                            <option value="Single">Single</option>
+                            <option value="Married">Married</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="education_level">Education Level</label>
+                        <select id="education_level" required>
+                            <option value="High School">High School</option>
+                            <option value="Bachelor's">Bachelor's</option>
+                            <option value="Master's">Master's</option>
+                            <option value="PhD">PhD</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="employment_status">Employment Status</label>
+                        <select id="employment_status" required>
+                            <option value="Employed">Employed</option>
+                            <option value="Self-employed">Self-employed</option>
+                            <option value="Unemployed">Unemployed</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="loan_purpose">Loan Purpose</label>
+                        <select id="loan_purpose" required>
+                            <option value="Debt consolidation">Debt consolidation</option>
+                            <option value="Credit card">Credit card</option>
+                            <option value="Home improvement">Home improvement</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+
+                    <!-- Numerical Features -->
+                    <div class="input-group">
+                        <label for="annual_income">Annual Income ($)</label>
+                        <input type="number" id="annual_income" placeholder="e.g. 65000" step="1000" min="4000" max="6000000" required>
+                        <span class="field-hint">&#128176; Range: $4,000 &ndash; $6,000,000 &nbsp;|&nbsp; Enter your total yearly earnings before tax</span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="loan_amount">Loan Amount ($)</label>
+                        <input type="number" id="loan_amount" placeholder="e.g. 15000" step="500" min="500" max="40000" required>
+                        <span class="field-hint">&#127970; Range: $500 &ndash; $40,000 &nbsp;|&nbsp; The total amount you wish to borrow</span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="credit_score">Credit Score</label>
+                        <input type="number" id="credit_score" placeholder="e.g. 720" min="300" max="850" required>
+                        <span class="field-hint">&#128202; Range: 300 &ndash; 850 &nbsp;|&nbsp; Poor (&lt;580) &middot; Fair (580&ndash;669) &middot; Good (670&ndash;739) &middot; Excellent (740+)</span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="interest_rate">Interest Rate (%)</label>
+                        <input type="number" id="interest_rate" placeholder="e.g. 10.5" step="0.1" min="5" max="30" required>
+                        <span class="field-hint">&#128200; Range: 5% &ndash; 30% &nbsp;|&nbsp; Annual percentage rate charged on the loan</span>
+                    </div>
+                </div>
+
+                <button type="submit" id="submit-btn">Predict Loan Status</button>
+            </form>
+
+            <div id="result-container" class="result-container hidden">
+                <div id="loading" class="hidden">
+                    <div class="spinner"></div>
+                    <p>Analyzing...</p>
+                </div>
+                <div id="prediction-result" class="hidden">
+                    <h2 id="status-text"></h2>
+                    <p style="font-weight: 600; margin-bottom: 1rem; color: var(--text-main);">Raw Prediction: <span id="raw-prediction"></span></p>
+                    <div class="prob-container">
+                        <p>Confidence: <span id="prob-text"></span></p>
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="error-message" class="hidden error"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('prediction-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Show loading state
+            const resultContainer = document.getElementById('result-container');
+            const loading = document.getElementById('loading');
+            const predictionResult = document.getElementById('prediction-result');
+            const errorMessage = document.getElementById('error-message');
+            const submitBtn = document.getElementById('submit-btn');
+            
+            resultContainer.classList.remove('hidden');
+            loading.classList.remove('hidden');
+            predictionResult.classList.add('hidden');
+            errorMessage.classList.add('hidden');
+            submitBtn.disabled = true;
+
+            // Collect data
+            const data = {
+                gender: document.getElementById('gender').value,
+                marital_status: document.getElementById('marital_status').value,
+                education_level: document.getElementById('education_level').value,
+                employment_status: document.getElementById('employment_status').value,
+                loan_purpose: document.getElementById('loan_purpose').value,
+                annual_income: parseFloat(document.getElementById('annual_income').value),
+                loan_amount: parseFloat(document.getElementById('loan_amount').value),
+                credit_score: parseInt(document.getElementById('credit_score').value),
+                interest_rate: parseFloat(document.getElementById('interest_rate').value)
+            };
+
+            try {
+                // Change localhost to point to the FastAPI service running locally.
+                // Assuming users access this via http://localhost:3000 -> API is at localhost:8000
+                const response = await fetch('http://localhost:8000/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    let errMsg = errorData.detail;
+                    if (typeof errMsg === 'object') {
+                        errMsg = JSON.stringify(errMsg);
+                    }
+                    throw new Error(errMsg || 'Prediction failed');
+                }
+
+                const result = await response.json();
+                
+                // Process result
+                loading.classList.add('hidden');
+                predictionResult.classList.remove('hidden');
+                
+                const statusText = document.getElementById('status-text');
+                const probText = document.getElementById('prob-text');
+                const progressFill = document.getElementById('progress-fill');
+                const rawPrediction = document.getElementById('raw-prediction');
+                
+                rawPrediction.textContent = result.prediction;
+                
+                // Note: FastAPI returns probability_paid_back
+                // For progress bar, we want to show confidence. If prediction=1, confidence is prob_paid_back.
+                // If prediction=0, confidence is prob_not_paid_back.
+                const confidence = result.prediction === 1 
+                    ? result.probability_paid_back * 100 
+                    : result.probability_not_paid_back * 100;
+                    
+                probText.textContent = `${confidence.toFixed(1)}%`;
+                progressFill.style.width = `${confidence}%`;
+
+                if (result.prediction === 1) {
+                    statusText.textContent = 'Likely to Pay Back';
+                    statusText.className = 'status-approved';
+                    progressFill.style.backgroundColor = 'var(--success-color)';
+                } else {
+                    statusText.textContent = 'High Risk of Default';
+                    statusText.className = 'status-rejected';
+                    progressFill.style.backgroundColor = 'var(--danger-color)';
+                }
+
+            } catch (error) {
+                loading.classList.add('hidden');
+                errorMessage.classList.remove('hidden');
+                errorMessage.textContent = `Error: ${error.message}`;
+            } finally {
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>

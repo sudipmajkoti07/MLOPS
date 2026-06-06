@@ -36,7 +36,6 @@ NEW_DF_COLUMNS = [
     'loan_amount',
     'credit_score',
     'interest_rate',
-    'debt_to_income_ratio',
     'loan_paid_back',
 ]
 
@@ -53,7 +52,6 @@ NUMERIC_FEATURES = [
     'loan_amount',
     'credit_score',
     'interest_rate',
-    'debt_to_income_ratio',
 ]
 
 TARGET = 'loan_paid_back'

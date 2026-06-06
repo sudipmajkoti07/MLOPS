@@ -124,6 +124,29 @@ services:
       --serve-artifacts"
     restart: always
 
+  fastapi:
+    build:
+      context: ./fastapi
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      REGISTERED_MODEL_NAME: loan_logistic_regression
+    volumes:
+      - mlflow-data-volume:/mlflow
+    depends_on:
+      - mlflow
+    restart: always
+
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "3000:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    restart: always
+
 volumes:
   postgres-db-volume:
   mariadb-data-volume:
