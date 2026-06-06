@@ -10,3 +10,24 @@
 [2026-06-06T06:27:37.679+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='train_loan_model' AIRFLOW_CTX_TASK_ID='train_and_register_model' AIRFLOW_CTX_EXECUTION_DATE='2026-06-06T06:27:27.217242+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-06T06:27:27.217242+00:00'
 [2026-06-06T06:27:37.685+0000] {taskinstance.py:430} INFO - ::endgroup::
 [2026-06-06T06:27:37.717+0000] {logging_mixin.py:188} INFO - Connecting to Redis...
+[2026-06-06T06:27:43.410+0000] {logging_mixin.py:188} INFO - Loading preprocessed data from Redis key 'preprocess'...
+[2026-06-06T06:27:44.625+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/train_model.py:70 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2026-06-06T06:28:04.381+0000] {logging_mixin.py:188} INFO - Loaded 547754 rows with columns: ['gender', 'marital_status', 'education_level', 'employment_status', 'loan_purpose', 'annual_income', 'loan_amount', 'credit_score', 'interest_rate', 'loan_paid_back']
+[2026-06-06T06:28:09.863+0000] {logging_mixin.py:188} INFO - Connecting to MLflow at http://mlflow:5000...
+[2026-06-06T06:28:11.300+0000] {logging_mixin.py:188} WARNING - 2026/06/06 06:28:11 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2026-06-06T06:28:12.066+0000] {logging_mixin.py:188} INFO - Training logistic regression model...

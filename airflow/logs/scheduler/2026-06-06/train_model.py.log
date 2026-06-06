@@ -376,3 +376,10 @@
 [2026-06-06T06:29:26.348+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:29:26.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-06T06:29:26.433+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:29:26.433+0000] {dag.py:3954} INFO - Setting next_dagrun for train_loan_model to None, run_after=None
 [2026-06-06T06:29:26.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_model.py took 15.840 seconds
+[2026-06-06T06:29:57.591+0000] {processor.py:161} INFO - Started process (PID=1332) to work on /opt/airflow/dags/train_model.py
+[2026-06-06T06:29:57.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_model.py for tasks to queue
+[2026-06-06T06:29:57.636+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:29:57.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/train_model.py
+[2026-06-06T06:30:18.209+0000] {processor.py:840} INFO - DAG(s) 'train_loan_model' retrieved from /opt/airflow/dags/train_model.py
+[2026-06-06T06:30:18.532+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:30:18.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:30:18.686+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:30:18.685+0000] {dag.py:3954} INFO - Setting next_dagrun for train_loan_model to None, run_after=None
+[2026-06-06T06:30:18.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_model.py took 21.423 seconds

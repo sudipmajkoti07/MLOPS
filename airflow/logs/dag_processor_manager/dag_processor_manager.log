@@ -2893,3 +2893,247 @@ File Path                               PID  Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/train_model.py        245  0.10s             0           0
 /opt/airflow/dags/transfer_data.py                             0           0
 ================================================================================
+[2026-06-06T06:17:55.338+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  6.50s           2026-06-06T06:17:31
+/opt/airflow/dags/preprocess_data.py                           1           0  2.30s           2026-06-06T06:17:27
+/opt/airflow/dags/transfer_data.py                             1           0  0.95s           2026-06-06T06:17:27
+================================================================================
+[2026-06-06T06:18:25.472+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.91s           2026-06-06T06:18:03
+/opt/airflow/dags/preprocess_data.py                           1           0  0.99s           2026-06-06T06:17:58
+/opt/airflow/dags/transfer_data.py                             1           0  0.87s           2026-06-06T06:17:59
+================================================================================
+[2026-06-06T06:18:55.655+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.73s           2026-06-06T06:18:35
+/opt/airflow/dags/preprocess_data.py                           1           0  0.73s           2026-06-06T06:18:29
+/opt/airflow/dags/transfer_data.py                             1           0  0.55s           2026-06-06T06:18:30
+================================================================================
+[2026-06-06T06:19:25.686+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  2.14s           2026-06-06T06:19:07
+/opt/airflow/dags/preprocess_data.py                           1           0  0.65s           2026-06-06T06:19:00
+/opt/airflow/dags/transfer_data.py                             1           0  0.57s           2026-06-06T06:19:01
+================================================================================
+[2026-06-06T06:19:56.105+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.94s           2026-06-06T06:19:39
+/opt/airflow/dags/preprocess_data.py                           1           0  0.79s           2026-06-06T06:19:31
+/opt/airflow/dags/transfer_data.py                             1           0  0.46s           2026-06-06T06:19:31
+================================================================================
+[2026-06-06T06:20:26.353+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  2.11s           2026-06-06T06:20:12
+/opt/airflow/dags/preprocess_data.py                           1           0  0.41s           2026-06-06T06:20:01
+/opt/airflow/dags/transfer_data.py                             1           0  0.39s           2026-06-06T06:20:02
+================================================================================
+[2026-06-06T06:20:56.366+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.64s           2026-06-06T06:20:44
+/opt/airflow/dags/preprocess_data.py                           1           0  0.61s           2026-06-06T06:20:33
+/opt/airflow/dags/transfer_data.py                             1           0  0.54s           2026-06-06T06:20:33
+================================================================================
+[2026-06-06T06:21:26.746+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.86s           2026-06-06T06:21:16
+/opt/airflow/dags/preprocess_data.py                           1           0  0.47s           2026-06-06T06:21:03
+/opt/airflow/dags/transfer_data.py                             1           0  0.44s           2026-06-06T06:21:03
+================================================================================
+[2026-06-06T06:21:56.816+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.81s           2026-06-06T06:21:48
+/opt/airflow/dags/preprocess_data.py                           1           0  0.54s           2026-06-06T06:21:34
+/opt/airflow/dags/transfer_data.py                             1           0  0.47s           2026-06-06T06:21:34
+================================================================================
+[2026-06-06T06:22:24.529+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-06-06T06:22:24.618+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-06T06:22:26.879+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.82s           2026-06-06T06:22:21
+/opt/airflow/dags/preprocess_data.py                           1           0  0.63s           2026-06-06T06:22:05
+/opt/airflow/dags/transfer_data.py                             1           0  0.59s           2026-06-06T06:22:05
+================================================================================
+[2026-06-06T06:22:57.397+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.82s           2026-06-06T06:22:53
+/opt/airflow/dags/preprocess_data.py                           1           0  0.52s           2026-06-06T06:22:36
+/opt/airflow/dags/transfer_data.py                             1           0  0.47s           2026-06-06T06:22:36
+================================================================================
+[2026-06-06T06:23:28.025+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.74s           2026-06-06T06:23:25
+/opt/airflow/dags/preprocess_data.py                           1           0  0.48s           2026-06-06T06:23:06
+/opt/airflow/dags/transfer_data.py                             1           0  0.45s           2026-06-06T06:23:06
+================================================================================
+[2026-06-06T06:23:58.313+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py        803  2.03s             1           0  1.74s           2026-06-06T06:23:25
+/opt/airflow/dags/preprocess_data.py                           1           0  1.00s           2026-06-06T06:23:38
+/opt/airflow/dags/transfer_data.py                             1           0  0.89s           2026-06-06T06:23:38
+================================================================================
+[2026-06-06T06:24:28.316+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  3.15s           2026-06-06T06:23:59
+/opt/airflow/dags/preprocess_data.py                           1           0  0.57s           2026-06-06T06:24:09
+/opt/airflow/dags/transfer_data.py                             1           0  0.51s           2026-06-06T06:24:09
+================================================================================
+[2026-06-06T06:24:59.123+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.90s           2026-06-06T06:24:32
+/opt/airflow/dags/preprocess_data.py                           1           0  0.49s           2026-06-06T06:24:39
+/opt/airflow/dags/transfer_data.py                             1           0  0.47s           2026-06-06T06:24:39
+================================================================================
+[2026-06-06T06:25:29.865+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.82s           2026-06-06T06:25:04
+/opt/airflow/dags/preprocess_data.py                           1           0  0.54s           2026-06-06T06:25:10
+/opt/airflow/dags/transfer_data.py                             1           0  0.47s           2026-06-06T06:25:10
+================================================================================
+[2026-06-06T06:26:00.285+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.66s           2026-06-06T06:25:37
+/opt/airflow/dags/preprocess_data.py                           1           0  0.43s           2026-06-06T06:25:41
+/opt/airflow/dags/transfer_data.py                             1           0  0.38s           2026-06-06T06:25:41
+================================================================================
+[2026-06-06T06:26:30.432+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  1.62s           2026-06-06T06:26:09
+/opt/airflow/dags/transfer_data.py                             1           0  0.55s           2026-06-06T06:26:12
+/opt/airflow/dags/preprocess_data.py                           1           0  0.38s           2026-06-06T06:26:12
+================================================================================
+[2026-06-06T06:27:01.082+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  2.74s           2026-06-06T06:26:42
+/opt/airflow/dags/preprocess_data.py                           1           0  0.60s           2026-06-06T06:26:42
+/opt/airflow/dags/transfer_data.py                             1           0  0.56s           2026-06-06T06:26:42
+================================================================================
+[2026-06-06T06:27:25.280+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-06-06T06:27:25.328+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-06T06:27:31.424+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  2.12s           2026-06-06T06:27:15
+/opt/airflow/dags/preprocess_data.py                           1           0  0.60s           2026-06-06T06:27:13
+/opt/airflow/dags/transfer_data.py                             1           0  0.56s           2026-06-06T06:27:14
+================================================================================
+[2026-06-06T06:28:01.569+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  5.83s           2026-06-06T06:27:52
+/opt/airflow/dags/preprocess_data.py                           1           0  2.46s           2026-06-06T06:27:47
+/opt/airflow/dags/transfer_data.py                             1           0  2.25s           2026-06-06T06:27:46
+================================================================================
+[2026-06-06T06:28:31.943+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py       1197  9.04s             1           0  5.83s           2026-06-06T06:27:52
+/opt/airflow/dags/preprocess_data.py                           1           0  4.93s           2026-06-06T06:28:22
+/opt/airflow/dags/transfer_data.py                             1           0  4.70s           2026-06-06T06:28:21
+================================================================================
+[2026-06-06T06:29:01.982+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py       1232  10.62s            1           0  18.15s          2026-06-06T06:28:41
+/opt/airflow/dags/preprocess_data.py                           1           0  5.56s           2026-06-06T06:28:58
+/opt/airflow/dags/transfer_data.py     1250  2.23s             1           0  4.70s           2026-06-06T06:28:21
+================================================================================
+[2026-06-06T06:29:32.239+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/train_model.py                               1           0  16.38s          2026-06-06T06:29:26
+/opt/airflow/dags/preprocess_data.py   1291  3.20s             1           0  5.56s           2026-06-06T06:28:58
+/opt/airflow/dags/transfer_data.py                             1           0  4.24s           2026-06-06T06:29:03
+================================================================================
