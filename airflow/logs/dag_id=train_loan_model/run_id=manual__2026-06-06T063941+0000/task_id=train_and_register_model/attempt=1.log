@@ -1,0 +1,43 @@
+[2026-06-06T06:39:53.327+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-06T06:39:53.385+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_loan_model.train_and_register_model manual__2026-06-06T06:39:41+00:00 [queued]>
+[2026-06-06T06:39:53.406+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_loan_model.train_and_register_model manual__2026-06-06T06:39:41+00:00 [queued]>
+[2026-06-06T06:39:53.407+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-06T06:39:53.436+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): train_and_register_model> on 2026-06-06 06:39:41+00:00
+[2026-06-06T06:39:53.453+0000] {standard_task_runner.py:63} INFO - Started process 237 to run task
+[2026-06-06T06:39:53.463+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'train_loan_model', 'train_and_register_model', 'manual__2026-06-06T06:39:41+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/train_model.py', '--cfg-path', '/tmp/tmpeg1d14ez']
+[2026-06-06T06:39:53.470+0000] {standard_task_runner.py:91} INFO - Job 25: Subtask train_and_register_model
+[2026-06-06T06:39:53.574+0000] {task_command.py:426} INFO - Running <TaskInstance: train_loan_model.train_and_register_model manual__2026-06-06T06:39:41+00:00 [running]> on host bc05c2d40a98
+[2026-06-06T06:39:53.675+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='train_loan_model' AIRFLOW_CTX_TASK_ID='train_and_register_model' AIRFLOW_CTX_EXECUTION_DATE='2026-06-06T06:39:41+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-06T06:39:41+00:00'
+[2026-06-06T06:39:53.677+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-06T06:39:53.692+0000] {logging_mixin.py:188} INFO - Connecting to Redis...
+[2026-06-06T06:39:54.870+0000] {logging_mixin.py:188} INFO - Loading preprocessed data from Redis key 'preprocess'...
+[2026-06-06T06:40:00.705+0000] {logging_mixin.py:188} INFO - Loaded 547754 rows with columns: ['gender', 'marital_status', 'education_level', 'employment_status', 'loan_purpose', 'annual_income', 'loan_amount', 'credit_score', 'interest_rate', 'debt_to_income_ratio', 'loan_paid_back']
+[2026-06-06T06:40:01.440+0000] {logging_mixin.py:188} INFO - Connecting to MLflow at http://mlflow:5000...
+[2026-06-06T06:40:01.879+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-06T06:40:01.880+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/train_model.py", line 100, in train_logistic_regression
+    mlflow.set_experiment(MLFLOW_EXPERIMENT)
+  File "/home/airflow/.local/lib/python3.11/site-packages/mlflow/tracking/fluent.py", line 164, in set_experiment
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Cannot set a deleted experiment 'loan_prediction' as the active experiment. You can restore the experiment, or permanently delete the experiment to create a new one.
+[2026-06-06T06:40:01.893+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=train_loan_model, task_id=train_and_register_model, run_id=manual__2026-06-06T06:39:41+00:00, execution_date=20260606T063941, start_date=20260606T063953, end_date=20260606T064001
+[2026-06-06T06:40:01.905+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 25 for task train_and_register_model (Cannot set a deleted experiment 'loan_prediction' as the active experiment. You can restore the experiment, or permanently delete the experiment to create a new one.; 237)
+[2026-06-06T06:40:01.988+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-06-06T06:40:02.002+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-06T06:40:02.004+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -607,3 +607,87 @@
 [2026-06-06T06:30:07.245+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:30:07.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-06T06:30:07.485+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:30:07.484+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
 [2026-06-06T06:30:08.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 5.211 seconds
+[2026-06-06T06:30:39.983+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:30:40.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:30:40.538+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:30:40.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:30:57.548+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:30:59.748+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:30:59.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:31:01.004+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:31:01.003+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:31:01.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 22.817 seconds
+[2026-06-06T06:31:32.817+0000] {processor.py:161} INFO - Started process (PID=1436) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:31:32.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:31:32.878+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:31:32.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:31:36.842+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:31:36.990+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:31:36.985+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:31:37.175+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:31:37.175+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:31:37.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 4.914 seconds
+[2026-06-06T06:32:09.051+0000] {processor.py:161} INFO - Started process (PID=1488) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:32:09.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:32:09.083+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:32:09.081+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:32:12.262+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:32:12.733+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:32:12.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:32:12.813+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:32:12.812+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:32:13.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 4.136 seconds
+[2026-06-06T06:32:43.485+0000] {processor.py:161} INFO - Started process (PID=1546) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:32:43.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:32:43.503+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:32:43.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:32:45.889+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:32:45.987+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:32:45.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:32:46.146+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:32:46.145+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:32:46.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 2.899 seconds
+[2026-06-06T06:33:17.403+0000] {processor.py:161} INFO - Started process (PID=1637) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:33:17.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:33:17.454+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:33:17.431+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:33:22.777+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:33:22.967+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:33:22.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:33:23.238+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:33:23.238+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:33:24.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 6.984 seconds
+[2026-06-06T06:33:54.952+0000] {processor.py:161} INFO - Started process (PID=1685) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:33:54.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:33:54.955+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:33:54.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:33:56.487+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:33:56.649+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:33:56.648+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:33:56.794+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:33:56.794+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:33:56.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 1.968 seconds
+[2026-06-06T06:36:59.347+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:36:59.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:36:59.356+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:36:59.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:37:00.278+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:37:00.733+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:37:00.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:37:00.749+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:37:00.749+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:37:00.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 1.457 seconds
+[2026-06-06T06:37:31.409+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:37:31.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:37:31.417+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:37:31.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:37:32.126+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:37:32.147+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:37:32.147+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:37:32.156+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:37:32.156+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:37:32.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 0.855 seconds
+[2026-06-06T06:38:03.117+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:38:03.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:38:03.134+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:38:03.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:38:03.911+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:38:03.940+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:38:03.940+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:38:03.954+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:38:03.953+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:38:03.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 0.889 seconds
+[2026-06-06T06:38:34.577+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:38:34.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:38:34.583+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:38:34.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:38:35.136+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:38:35.167+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:38:35.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:38:35.183+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:38:35.182+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:38:35.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 0.673 seconds
+[2026-06-06T06:39:05.872+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:39:05.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:39:05.880+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:39:05.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:39:06.525+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:39:06.555+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:39:06.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:39:06.569+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:39:06.569+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:39:06.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 0.738 seconds
+[2026-06-06T06:39:49.395+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:39:49.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/preprocess_data.py for tasks to queue
+[2026-06-06T06:39:49.401+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:39:49.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:39:50.198+0000] {processor.py:840} INFO - DAG(s) 'preprocess_loan_data' retrieved from /opt/airflow/dags/preprocess_data.py
+[2026-06-06T06:39:50.258+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:39:50.254+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-06T06:39:50.274+0000] {logging_mixin.py:188} INFO - [2026-06-06T06:39:50.274+0000] {dag.py:3954} INFO - Setting next_dagrun for preprocess_loan_data to None, run_after=None
+[2026-06-06T06:39:50.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/preprocess_data.py took 0.923 seconds
