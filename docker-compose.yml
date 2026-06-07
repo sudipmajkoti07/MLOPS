@@ -154,6 +154,7 @@ services:
     environment:
       JUPYTER_TOKEN: "mlops"
       JUPYTER_ENABLE_LAB: "yes"
+    working_dir: /home/jovyan/work
     volumes:
       - ./notebooks:/home/jovyan/work
     depends_on:

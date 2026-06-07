@@ -1620,3 +1620,1318 @@
 [2026-06-07T05:24:07.414+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:24:07.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-07T05:24:07.435+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:24:07.435+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
 [2026-06-07T05:24:07.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.006 seconds
+[2026-06-07T05:24:37.674+0000] {processor.py:161} INFO - Started process (PID=12477) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:24:37.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:24:37.685+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:24:37.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:24:41.500+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:24:41.531+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:24:41.531+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:24:41.548+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:24:41.547+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:24:41.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.971 seconds
+[2026-06-07T05:25:12.242+0000] {processor.py:161} INFO - Started process (PID=12532) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:25:12.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:25:12.247+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:25:12.246+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:25:16.461+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:25:16.485+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:25:16.485+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:25:16.507+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:25:16.507+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:25:16.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.293 seconds
+[2026-06-07T05:25:46.924+0000] {processor.py:161} INFO - Started process (PID=12578) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:25:46.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:25:46.929+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:25:46.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:25:50.435+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:25:50.468+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:25:50.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:25:50.491+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:25:50.491+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:25:50.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.613 seconds
+[2026-06-07T05:26:21.066+0000] {processor.py:161} INFO - Started process (PID=12631) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:26:21.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:26:21.069+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:26:21.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:26:24.267+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:26:24.289+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:26:24.289+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:26:24.306+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:26:24.306+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:26:24.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.271 seconds
+[2026-06-07T05:26:54.572+0000] {processor.py:161} INFO - Started process (PID=12677) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:26:54.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:26:54.582+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:26:54.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:26:58.021+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:26:58.043+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:26:58.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:26:58.070+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:26:58.070+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:26:58.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.585 seconds
+[2026-06-07T05:27:28.380+0000] {processor.py:161} INFO - Started process (PID=12730) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:27:28.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:27:28.385+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:27:28.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:27:32.699+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:27:32.729+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:27:32.729+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:27:32.755+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:27:32.755+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:27:32.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.421 seconds
+[2026-06-07T05:28:03.084+0000] {processor.py:161} INFO - Started process (PID=12775) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:28:03.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:28:03.087+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:28:03.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:28:08.551+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:28:08.726+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:28:08.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:28:08.752+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:28:08.752+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:28:08.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.712 seconds
+[2026-06-07T05:28:39.823+0000] {processor.py:161} INFO - Started process (PID=12829) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:28:39.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:28:39.828+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:28:39.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:28:44.206+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:28:44.231+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:28:44.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:28:44.252+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:28:44.252+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:28:44.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.472 seconds
+[2026-06-07T05:29:14.761+0000] {processor.py:161} INFO - Started process (PID=12893) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:29:14.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:29:14.766+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:29:14.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:29:22.924+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:29:22.983+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:29:22.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:29:23.046+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:29:23.046+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:29:23.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 8.383 seconds
+[2026-06-07T05:29:54.140+0000] {processor.py:161} INFO - Started process (PID=12940) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:29:54.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:29:54.143+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:29:54.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:29:58.816+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:29:58.874+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:29:58.874+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:29:58.912+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:29:58.912+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:29:58.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.834 seconds
+[2026-06-07T05:30:29.777+0000] {processor.py:161} INFO - Started process (PID=12994) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:30:29.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:30:29.783+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:30:29.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:30:33.973+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:30:34.009+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:30:34.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:30:34.034+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:30:34.034+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:30:34.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.319 seconds
+[2026-06-07T05:31:04.367+0000] {processor.py:161} INFO - Started process (PID=13041) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:31:04.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:31:04.373+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:31:04.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:31:09.663+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:31:09.713+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:31:09.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:31:09.745+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:31:09.745+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:31:09.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.467 seconds
+[2026-06-07T05:31:40.651+0000] {processor.py:161} INFO - Started process (PID=13092) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:31:40.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:31:40.653+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:31:40.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:31:44.360+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:31:44.385+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:31:44.385+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:31:44.405+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:31:44.405+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:31:44.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.786 seconds
+[2026-06-07T05:32:14.496+0000] {processor.py:161} INFO - Started process (PID=13146) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:32:14.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:32:14.499+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:32:14.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:32:18.105+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:32:18.144+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:32:18.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:32:18.164+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:32:18.164+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:32:18.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.713 seconds
+[2026-06-07T05:32:48.361+0000] {processor.py:161} INFO - Started process (PID=13192) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:32:48.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:32:48.371+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:32:48.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:32:53.174+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:32:53.226+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:32:53.225+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:32:53.311+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:32:53.310+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:32:53.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.058 seconds
+[2026-06-07T05:33:23.773+0000] {processor.py:161} INFO - Started process (PID=13257) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:33:23.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:33:23.777+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:33:23.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:33:27.799+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:33:27.835+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:33:27.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:33:27.865+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:33:27.865+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:33:27.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.164 seconds
+[2026-06-07T05:33:58.540+0000] {processor.py:161} INFO - Started process (PID=13308) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:33:58.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:33:58.542+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:33:58.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:34:02.101+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:34:02.166+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:34:02.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:34:02.194+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:34:02.194+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:34:02.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.732 seconds
+[2026-06-07T05:34:32.537+0000] {processor.py:161} INFO - Started process (PID=13363) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:34:32.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:34:32.539+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:34:32.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:34:38.654+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:34:38.706+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:34:38.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:34:38.745+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:34:38.745+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:34:38.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.282 seconds
+[2026-06-07T05:35:09.642+0000] {processor.py:161} INFO - Started process (PID=13417) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:35:09.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:35:09.648+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:35:09.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:35:14.291+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:35:14.318+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:35:14.317+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:35:14.344+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:35:14.343+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:35:14.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.743 seconds
+[2026-06-07T05:35:44.687+0000] {processor.py:161} INFO - Started process (PID=13463) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:35:44.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:35:44.696+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:35:44.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:35:47.805+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:35:47.851+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:35:47.851+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:35:47.903+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:35:47.903+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:35:47.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.256 seconds
+[2026-06-07T05:36:18.089+0000] {processor.py:161} INFO - Started process (PID=13516) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:36:18.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:36:18.098+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:36:18.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:36:21.046+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:36:21.069+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:36:21.069+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:36:21.093+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:36:21.092+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:36:21.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.044 seconds
+[2026-06-07T05:36:51.332+0000] {processor.py:161} INFO - Started process (PID=13562) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:36:51.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:36:51.343+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:36:51.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:36:54.949+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:36:55.002+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:36:55.001+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:36:55.022+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:36:55.022+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:36:55.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.773 seconds
+[2026-06-07T05:37:25.524+0000] {processor.py:161} INFO - Started process (PID=13615) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:37:25.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:37:25.533+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:37:25.532+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:37:28.921+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:37:28.949+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:37:28.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:37:28.967+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:37:28.967+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:37:29.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.505 seconds
+[2026-06-07T05:37:59.309+0000] {processor.py:161} INFO - Started process (PID=13668) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:37:59.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:37:59.332+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:37:59.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:38:03.507+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:38:03.530+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:38:03.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:38:03.548+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:38:03.548+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:38:03.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.315 seconds
+[2026-06-07T05:38:34.235+0000] {processor.py:161} INFO - Started process (PID=13726) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:38:34.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:38:34.245+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:38:34.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:38:39.211+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:38:39.257+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:38:39.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:38:39.297+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:38:39.297+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:38:39.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.124 seconds
+[2026-06-07T05:39:09.930+0000] {processor.py:161} INFO - Started process (PID=13780) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:39:09.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:39:09.933+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:39:09.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:39:13.184+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:39:13.222+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:39:13.221+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:39:13.246+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:39:13.246+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:39:13.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.399 seconds
+[2026-06-07T05:39:43.934+0000] {processor.py:161} INFO - Started process (PID=13833) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:39:43.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:39:43.940+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:39:43.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:39:48.964+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:39:49.003+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:39:49.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:39:49.029+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:39:49.028+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:39:49.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.140 seconds
+[2026-06-07T05:40:19.365+0000] {processor.py:161} INFO - Started process (PID=13879) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:40:19.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:40:19.373+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:40:19.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:40:22.833+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:40:22.858+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:40:22.858+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:40:22.883+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:40:22.883+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:40:22.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.571 seconds
+[2026-06-07T05:40:53.889+0000] {processor.py:161} INFO - Started process (PID=13933) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:40:53.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:40:53.892+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:40:53.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:40:56.888+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:40:56.913+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:40:56.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:40:56.930+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:40:56.930+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:40:56.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.074 seconds
+[2026-06-07T05:41:27.104+0000] {processor.py:161} INFO - Started process (PID=13987) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:41:27.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:41:27.107+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:41:27.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:41:30.458+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:41:30.481+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:41:30.481+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:41:30.499+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:41:30.499+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:41:30.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.427 seconds
+[2026-06-07T05:42:01.225+0000] {processor.py:161} INFO - Started process (PID=14033) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:42:01.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:42:01.228+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:42:01.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:42:04.634+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:42:04.657+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:42:04.657+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:42:04.674+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:42:04.674+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:42:04.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.487 seconds
+[2026-06-07T05:42:34.839+0000] {processor.py:161} INFO - Started process (PID=14086) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:42:34.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:42:34.842+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:42:34.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:42:37.780+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:42:37.814+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:42:37.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:42:37.835+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:42:37.834+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:42:37.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.033 seconds
+[2026-06-07T05:43:08.528+0000] {processor.py:161} INFO - Started process (PID=14139) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:43:08.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:43:08.531+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:43:08.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:43:11.712+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:43:11.737+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:43:11.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:43:11.753+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:43:11.753+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:43:11.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.252 seconds
+[2026-06-07T05:43:42.241+0000] {processor.py:161} INFO - Started process (PID=14185) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:43:42.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:43:42.245+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:43:42.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:43:45.455+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:43:45.478+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:43:45.478+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:43:45.498+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:43:45.497+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:43:45.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.291 seconds
+[2026-06-07T05:44:15.595+0000] {processor.py:161} INFO - Started process (PID=14251) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:44:15.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:44:15.603+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:44:15.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:44:22.366+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:44:22.466+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:44:22.464+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:44:22.499+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:44:22.498+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:44:22.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.935 seconds
+[2026-06-07T05:44:53.550+0000] {processor.py:161} INFO - Started process (PID=14307) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:44:53.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:44:53.552+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:44:53.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:44:59.058+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:44:59.081+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:44:59.080+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:44:59.098+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:44:59.098+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:44:59.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.634 seconds
+[2026-06-07T05:45:29.379+0000] {processor.py:161} INFO - Started process (PID=14362) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:45:29.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:45:29.381+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:45:29.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:45:35.113+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:45:35.140+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:45:35.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:45:35.171+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:45:35.171+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:45:35.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.839 seconds
+[2026-06-07T05:46:05.714+0000] {processor.py:161} INFO - Started process (PID=14408) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:46:05.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:46:05.716+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:46:05.716+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:46:12.418+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:46:12.472+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:46:12.471+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:46:12.537+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:46:12.537+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:46:12.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.880 seconds
+[2026-06-07T05:46:43.498+0000] {processor.py:161} INFO - Started process (PID=14461) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:46:43.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:46:43.506+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:46:43.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:46:49.732+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:46:49.800+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:46:49.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:46:49.864+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:46:49.863+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:46:49.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.465 seconds
+[2026-06-07T05:47:21.090+0000] {processor.py:161} INFO - Started process (PID=14506) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:47:21.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:47:21.099+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:47:21.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:47:28.752+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:47:28.817+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:47:28.816+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:47:28.874+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:47:28.874+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:47:28.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.866 seconds
+[2026-06-07T05:47:59.515+0000] {processor.py:161} INFO - Started process (PID=14571) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:47:59.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:47:59.520+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:47:59.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:48:06.774+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:48:06.821+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:48:06.820+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:48:06.895+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:48:06.895+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:48:06.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.441 seconds
+[2026-06-07T05:48:37.257+0000] {processor.py:161} INFO - Started process (PID=14618) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:48:37.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:48:37.263+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:48:37.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:48:46.769+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:48:46.903+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:48:46.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:48:46.982+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:48:46.982+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:48:47.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 9.825 seconds
+[2026-06-07T05:49:17.841+0000] {processor.py:161} INFO - Started process (PID=14664) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:49:17.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:49:17.846+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:49:17.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:49:24.856+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:49:24.903+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:49:24.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:49:24.943+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:49:24.943+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:49:24.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.168 seconds
+[2026-06-07T05:49:55.383+0000] {processor.py:161} INFO - Started process (PID=14708) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:49:55.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:49:55.390+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:49:55.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:50:04.462+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:50:04.555+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:50:04.554+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:50:04.600+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:50:04.600+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:50:04.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 9.263 seconds
+[2026-06-07T05:50:35.094+0000] {processor.py:161} INFO - Started process (PID=14753) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:50:35.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:50:35.115+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:50:35.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:50:44.948+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:50:45.333+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:50:45.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:50:45.471+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:50:45.470+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:50:45.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 10.496 seconds
+[2026-06-07T05:51:15.896+0000] {processor.py:161} INFO - Started process (PID=14812) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:51:15.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:51:15.901+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:51:15.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:51:25.696+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:51:25.844+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:51:25.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:51:25.944+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:51:25.943+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:51:25.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 10.122 seconds
+[2026-06-07T05:51:56.543+0000] {processor.py:161} INFO - Started process (PID=14875) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:51:56.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:51:56.554+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:51:56.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:52:00.592+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:52:00.627+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:52:00.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:52:00.644+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:52:00.644+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:52:00.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.172 seconds
+[2026-06-07T05:52:31.379+0000] {processor.py:161} INFO - Started process (PID=14929) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:52:31.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:52:31.384+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:52:31.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:52:35.967+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:52:35.991+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:52:35.990+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:52:36.010+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:52:36.010+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:52:36.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.673 seconds
+[2026-06-07T05:53:06.972+0000] {processor.py:161} INFO - Started process (PID=14975) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:53:06.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:53:06.979+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:53:06.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:53:13.324+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:53:13.384+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:53:13.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:53:13.428+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:53:13.428+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:53:13.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.522 seconds
+[2026-06-07T05:53:43.818+0000] {processor.py:161} INFO - Started process (PID=15025) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:53:43.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:53:43.824+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:53:43.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:53:47.703+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:53:47.725+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:53:47.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:53:47.744+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:53:47.744+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:53:47.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.966 seconds
+[2026-06-07T05:54:18.534+0000] {processor.py:161} INFO - Started process (PID=15073) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:54:18.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:54:18.542+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:54:18.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:54:28.523+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:54:28.571+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:54:28.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:54:28.604+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:54:28.602+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:54:28.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 10.160 seconds
+[2026-06-07T05:54:59.187+0000] {processor.py:161} INFO - Started process (PID=15130) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:54:59.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:54:59.189+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:54:59.189+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:55:08.257+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:55:08.304+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:55:08.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:55:08.347+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:55:08.347+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:55:08.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 9.246 seconds
+[2026-06-07T05:55:39.529+0000] {processor.py:161} INFO - Started process (PID=15183) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:55:39.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:55:39.532+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:55:39.532+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:55:43.180+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:55:43.204+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:55:43.204+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:55:43.224+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:55:43.224+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:55:43.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.739 seconds
+[2026-06-07T05:56:13.512+0000] {processor.py:161} INFO - Started process (PID=15237) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:56:13.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:56:13.517+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:56:13.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:56:17.974+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:56:17.995+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:56:17.995+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:56:18.013+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:56:18.013+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:56:18.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.543 seconds
+[2026-06-07T05:56:48.797+0000] {processor.py:161} INFO - Started process (PID=15284) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:56:48.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:56:48.813+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:56:48.810+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:56:53.100+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:56:53.135+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:56:53.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:56:53.164+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:56:53.164+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:56:53.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.469 seconds
+[2026-06-07T05:57:23.415+0000] {processor.py:161} INFO - Started process (PID=15337) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:57:23.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:57:23.420+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:57:23.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:57:27.210+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:57:27.245+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:57:27.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:57:27.273+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:57:27.272+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:57:27.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.907 seconds
+[2026-06-07T05:57:58.084+0000] {processor.py:161} INFO - Started process (PID=15383) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:57:58.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:57:58.092+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:57:58.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:58:02.836+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:58:02.859+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:58:02.859+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:58:02.880+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:58:02.880+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:58:02.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.900 seconds
+[2026-06-07T05:58:33.945+0000] {processor.py:161} INFO - Started process (PID=15450) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:58:33.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:58:33.949+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:58:33.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:58:37.550+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:58:37.571+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:58:37.571+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:58:37.594+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:58:37.594+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:58:37.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.680 seconds
+[2026-06-07T05:59:07.886+0000] {processor.py:161} INFO - Started process (PID=15505) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:59:07.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:59:07.894+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:59:07.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:59:11.844+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:59:11.868+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:59:11.868+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:59:11.889+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:59:11.889+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:59:11.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.064 seconds
+[2026-06-07T05:59:42.469+0000] {processor.py:161} INFO - Started process (PID=15560) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:59:42.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T05:59:42.472+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:59:42.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:59:47.269+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T05:59:47.313+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:59:47.312+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T05:59:47.369+0000] {logging_mixin.py:188} INFO - [2026-06-07T05:59:47.369+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T05:59:47.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.950 seconds
+[2026-06-07T06:00:17.559+0000] {processor.py:161} INFO - Started process (PID=15599) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:00:17.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:00:17.565+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:00:17.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:00:24.435+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:00:24.505+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:00:24.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:00:24.543+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:00:24.542+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:00:24.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.045 seconds
+[2026-06-07T06:00:55.616+0000] {processor.py:161} INFO - Started process (PID=15658) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:00:55.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:00:55.622+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:00:55.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:00:59.995+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:01:00.032+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:01:00.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:01:00.070+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:01:00.070+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:01:00.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.521 seconds
+[2026-06-07T06:01:30.845+0000] {processor.py:161} INFO - Started process (PID=15704) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:01:30.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:01:30.853+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:01:30.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:01:38.379+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:01:38.518+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:01:38.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:01:38.841+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:01:38.841+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:01:38.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 8.149 seconds
+[2026-06-07T06:02:09.224+0000] {processor.py:161} INFO - Started process (PID=15755) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:02:09.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:02:09.228+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:02:09.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:02:14.988+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:02:15.016+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:02:15.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:02:15.056+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:02:15.056+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:02:15.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.872 seconds
+[2026-06-07T06:02:45.349+0000] {processor.py:161} INFO - Started process (PID=15802) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:02:45.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:02:45.374+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:02:45.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:02:59.285+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:02:59.333+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:02:59.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:02:59.413+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:02:59.412+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:02:59.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 14.218 seconds
+[2026-06-07T06:03:30.305+0000] {processor.py:161} INFO - Started process (PID=15854) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:03:30.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:03:30.312+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:03:30.311+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:03:37.362+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:03:37.382+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:03:37.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:03:37.401+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:03:37.401+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:03:37.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.144 seconds
+[2026-06-07T06:04:07.864+0000] {processor.py:161} INFO - Started process (PID=15918) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:04:07.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:04:07.871+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:04:07.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:04:14.313+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:04:14.358+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:04:14.357+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:04:14.422+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:04:14.421+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:04:14.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.608 seconds
+[2026-06-07T06:04:45.185+0000] {processor.py:161} INFO - Started process (PID=15965) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:04:45.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:04:45.195+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:04:45.194+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:04:51.504+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:04:51.528+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:04:51.527+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:04:51.547+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:04:51.547+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:04:51.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.415 seconds
+[2026-06-07T06:05:21.742+0000] {processor.py:161} INFO - Started process (PID=16028) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:05:21.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:05:21.751+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:05:21.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:05:25.647+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:05:25.673+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:05:25.673+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:05:25.694+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:05:25.694+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:05:25.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.020 seconds
+[2026-06-07T06:05:56.091+0000] {processor.py:161} INFO - Started process (PID=16075) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:05:56.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:05:56.097+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:05:56.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:06:02.679+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:06:02.746+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:06:02.744+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:06:02.788+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:06:02.787+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:06:02.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.767 seconds
+[2026-06-07T06:06:33.319+0000] {processor.py:161} INFO - Started process (PID=16127) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:06:33.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:06:33.324+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:06:33.323+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:06:39.616+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:06:39.663+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:06:39.662+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:06:39.694+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:06:39.694+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:06:39.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.429 seconds
+[2026-06-07T06:11:59.515+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:11:59.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:11:59.520+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:11:59.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:12:20.940+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:12:21.192+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:12:21.191+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:12:21.226+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:12:21.226+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:12:21.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 21.775 seconds
+[2026-06-07T06:12:51.773+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:12:51.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:12:51.778+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:12:51.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:12:57.004+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:12:57.066+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:12:57.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:12:57.099+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:12:57.099+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:12:57.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.384 seconds
+[2026-06-07T06:13:27.410+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:13:27.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:13:27.417+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:13:27.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:13:34.756+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:13:34.790+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:13:34.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:13:34.826+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:13:34.826+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:13:34.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.481 seconds
+[2026-06-07T06:14:05.561+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:14:05.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:14:05.568+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:14:05.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:14:11.955+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:14:11.995+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:14:11.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:14:12.026+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:14:12.026+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:14:12.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.517 seconds
+[2026-06-07T06:14:42.456+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:14:42.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:14:42.468+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:14:42.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:14:50.843+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:14:50.885+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:14:50.884+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:14:50.929+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:14:50.928+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:14:50.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 8.584 seconds
+[2026-06-07T06:15:21.319+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:15:21.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:15:21.325+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:15:21.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:15:25.230+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:15:25.278+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:15:25.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:15:25.322+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:15:25.322+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:15:25.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.073 seconds
+[2026-06-07T06:15:55.639+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:15:55.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:15:55.646+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:15:55.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:16:02.593+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:16:02.655+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:16:02.654+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:16:02.695+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:16:02.695+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:16:02.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.115 seconds
+[2026-06-07T06:16:33.793+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:16:33.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:16:33.799+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:16:33.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:16:41.333+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:16:41.375+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:16:41.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:16:41.402+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:16:41.402+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:16:41.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.660 seconds
+[2026-06-07T06:17:11.652+0000] {processor.py:161} INFO - Started process (PID=740) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:17:11.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:17:11.659+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:17:11.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:17:24.840+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:17:24.981+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:17:24.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:17:25.150+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:17:25.149+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:17:25.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 13.633 seconds
+[2026-06-07T06:17:55.556+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:17:55.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:17:55.579+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:17:55.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:18:05.587+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:18:05.813+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:18:05.810+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:18:05.934+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:18:05.932+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:18:06.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 10.721 seconds
+[2026-06-07T06:18:37.560+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:18:37.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:18:37.570+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:18:37.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:19:07.699+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:19:07.697+0000] {timeout.py:68} ERROR - Process timed out, PID: 849
+[2026-06-07T06:19:38.813+0000] {processor.py:161} INFO - Started process (PID=902) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:19:38.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:19:38.818+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:19:38.817+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:19:48.345+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:19:48.376+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:19:48.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:19:48.411+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:19:48.410+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:19:48.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 9.650 seconds
+[2026-06-07T06:20:19.165+0000] {processor.py:161} INFO - Started process (PID=969) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:20:19.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:20:19.170+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:20:19.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:20:25.741+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:20:25.784+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:20:25.783+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:20:25.830+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:20:25.829+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:20:25.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.729 seconds
+[2026-06-07T06:20:56.415+0000] {processor.py:161} INFO - Started process (PID=1023) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:20:56.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:20:56.421+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:20:56.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:21:03.227+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:21:03.255+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:21:03.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:21:03.295+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:21:03.295+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:21:03.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.928 seconds
+[2026-06-07T06:21:33.991+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:21:33.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:21:33.998+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:21:33.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:21:39.820+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:21:39.843+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:21:39.843+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:21:39.865+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:21:39.864+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:21:39.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.912 seconds
+[2026-06-07T06:22:10.119+0000] {processor.py:161} INFO - Started process (PID=1120) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:22:10.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:22:10.138+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:22:10.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:22:14.168+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:22:14.192+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:22:14.192+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:22:14.217+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:22:14.217+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:22:14.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.155 seconds
+[2026-06-07T06:22:44.701+0000] {processor.py:161} INFO - Started process (PID=1172) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:22:44.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:22:44.708+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:22:44.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:22:50.157+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:22:50.206+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:22:50.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:22:50.250+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:22:50.250+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:22:50.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.593 seconds
+[2026-06-07T06:23:21.377+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:23:21.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:23:21.393+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:23:21.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:23:27.225+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:23:28.786+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:23:28.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:23:28.898+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:23:28.898+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:23:29.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 8.553 seconds
+[2026-06-07T06:24:00.693+0000] {processor.py:161} INFO - Started process (PID=1272) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:24:00.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:24:00.698+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:24:00.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:24:06.255+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:24:06.279+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:24:06.278+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:24:06.298+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:24:06.297+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:24:06.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.646 seconds
+[2026-06-07T06:24:36.847+0000] {processor.py:161} INFO - Started process (PID=1330) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:24:36.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:24:36.862+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:24:36.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:24:41.566+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:24:41.585+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:24:41.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:24:41.608+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:24:41.608+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:24:41.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.832 seconds
+[2026-06-07T06:25:12.094+0000] {processor.py:161} INFO - Started process (PID=1383) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:25:12.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:25:12.111+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:25:12.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:25:16.171+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:25:16.199+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:25:16.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:25:16.225+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:25:16.225+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:25:16.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.191 seconds
+[2026-06-07T06:25:47.164+0000] {processor.py:161} INFO - Started process (PID=1438) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:25:47.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:25:47.170+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:25:47.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:25:53.115+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:25:53.189+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:25:53.187+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:25:53.259+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:25:53.258+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:25:53.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.171 seconds
+[2026-06-07T06:26:24.277+0000] {processor.py:161} INFO - Started process (PID=1484) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:26:24.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:26:24.283+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:26:24.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:26:31.719+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:26:31.742+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:26:31.742+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:26:31.763+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:26:31.762+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:26:31.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.522 seconds
+[2026-06-07T06:27:02.357+0000] {processor.py:161} INFO - Started process (PID=1545) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:27:02.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:27:02.361+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:27:02.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:27:06.775+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:27:06.810+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:27:06.810+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:27:06.860+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:27:06.860+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:27:06.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.567 seconds
+[2026-06-07T06:27:37.278+0000] {processor.py:161} INFO - Started process (PID=1600) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:27:37.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:27:37.282+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:27:37.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:27:41.481+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:27:41.506+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:27:41.506+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:27:41.529+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:27:41.529+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:27:41.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.287 seconds
+[2026-06-07T06:28:11.738+0000] {processor.py:161} INFO - Started process (PID=1658) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:28:11.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:28:11.755+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:28:11.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:28:15.874+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:28:15.898+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:28:15.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:28:15.921+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:28:15.920+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:28:15.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.270 seconds
+[2026-06-07T06:28:47.633+0000] {processor.py:161} INFO - Started process (PID=1712) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:28:47.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:28:47.647+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:28:47.644+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:28:54.156+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:28:54.180+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:28:54.179+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:28:54.199+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:28:54.199+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:28:54.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.628 seconds
+[2026-06-07T06:29:24.567+0000] {processor.py:161} INFO - Started process (PID=1758) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:29:24.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:29:24.576+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:29:24.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:29:29.281+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:29:29.315+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:29:29.314+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:29:29.347+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:29:29.346+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:29:29.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.895 seconds
+[2026-06-07T06:29:59.785+0000] {processor.py:161} INFO - Started process (PID=1811) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:29:59.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:29:59.788+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:29:59.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:30:03.887+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:30:03.911+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:30:03.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:30:03.932+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:30:03.931+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:30:03.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.205 seconds
+[2026-06-07T06:30:34.082+0000] {processor.py:161} INFO - Started process (PID=1857) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:30:34.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:30:34.086+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:30:34.085+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:30:37.558+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:30:37.581+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:30:37.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:30:37.598+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:30:37.598+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:30:37.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.556 seconds
+[2026-06-07T06:31:07.845+0000] {processor.py:161} INFO - Started process (PID=1910) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:31:07.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:31:07.850+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:31:07.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:31:11.678+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:31:11.717+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:31:11.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:31:11.742+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:31:11.742+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:31:11.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.954 seconds
+[2026-06-07T06:31:42.151+0000] {processor.py:161} INFO - Started process (PID=1956) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:31:42.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:31:42.162+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:31:42.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:31:46.226+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:31:46.295+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:31:46.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:31:46.336+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:31:46.335+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:31:46.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.252 seconds
+[2026-06-07T06:32:16.551+0000] {processor.py:161} INFO - Started process (PID=2010) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:32:16.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:32:16.566+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:32:16.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:32:19.823+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:32:19.855+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:32:19.855+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:32:19.878+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:32:19.877+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:32:19.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.410 seconds
+[2026-06-07T06:32:50.159+0000] {processor.py:161} INFO - Started process (PID=2069) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:32:50.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:32:50.163+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:32:50.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:32:54.594+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:32:54.620+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:32:54.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:32:54.640+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:32:54.640+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:32:54.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.520 seconds
+[2026-06-07T06:33:25.364+0000] {processor.py:161} INFO - Started process (PID=2122) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:33:25.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:33:25.370+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:33:25.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:33:30.005+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:33:30.050+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:33:30.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:33:30.069+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:33:30.069+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:33:30.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.753 seconds
+[2026-06-07T06:34:00.710+0000] {processor.py:161} INFO - Started process (PID=2177) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:34:00.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:34:00.715+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:34:00.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:34:04.739+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:34:04.777+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:34:04.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:34:04.809+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:34:04.808+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:34:04.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.141 seconds
+[2026-06-07T06:34:35.280+0000] {processor.py:161} INFO - Started process (PID=2222) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:34:35.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:34:35.286+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:34:35.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:34:39.847+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:34:39.888+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:34:39.887+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:34:39.953+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:34:39.953+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:34:40.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.858 seconds
+[2026-06-07T06:35:10.480+0000] {processor.py:161} INFO - Started process (PID=2274) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:35:10.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:35:10.484+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:35:10.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:35:15.281+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:35:15.355+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:35:15.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:35:15.388+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:35:15.388+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:35:15.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.950 seconds
+[2026-06-07T06:35:45.627+0000] {processor.py:161} INFO - Started process (PID=2319) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:35:45.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:35:45.633+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:35:45.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:36:14.253+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:36:15.409+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:36:15.408+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:36:15.508+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:36:15.507+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:36:15.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 29.973 seconds
+[2026-06-07T06:36:46.276+0000] {processor.py:161} INFO - Started process (PID=2379) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:36:46.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:36:46.287+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:36:46.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:36:50.495+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:36:50.523+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:36:50.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:36:50.543+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:36:50.543+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:36:50.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.316 seconds
+[2026-06-07T06:37:21.315+0000] {processor.py:161} INFO - Started process (PID=2446) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:37:21.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:37:21.318+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:37:21.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:37:25.092+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:37:25.118+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:37:25.117+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:37:25.143+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:37:25.143+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:37:25.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.864 seconds
+[2026-06-07T06:37:55.334+0000] {processor.py:161} INFO - Started process (PID=2497) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:37:55.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:37:55.338+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:37:55.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:37:58.653+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:37:58.678+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:37:58.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:37:58.697+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:37:58.697+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:37:58.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.406 seconds
+[2026-06-07T06:38:29.563+0000] {processor.py:161} INFO - Started process (PID=2543) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:38:29.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:38:29.577+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:38:29.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:38:33.543+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:38:33.567+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:38:33.566+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:38:33.589+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:38:33.589+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:38:33.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.112 seconds
+[2026-06-07T06:39:04.129+0000] {processor.py:161} INFO - Started process (PID=2596) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:39:04.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:39:04.138+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:39:04.137+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:39:08.687+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:39:08.743+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:39:08.742+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:39:08.777+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:39:08.777+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:39:08.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.684 seconds
+[2026-06-07T06:39:39.072+0000] {processor.py:161} INFO - Started process (PID=2643) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:39:39.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:39:39.078+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:39:39.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:39:43.361+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:39:43.401+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:39:43.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:39:43.428+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:39:43.427+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:39:43.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.410 seconds
+[2026-06-07T06:43:17.245+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:43:17.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:43:17.328+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:43:17.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:43:38.758+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:43:38.921+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:43:38.920+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:43:38.957+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:43:38.956+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:43:39.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 21.799 seconds
+[2026-06-07T06:44:09.287+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:44:09.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:44:09.293+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:44:09.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:44:15.602+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:44:15.634+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:44:15.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:44:15.707+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:44:15.707+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:44:15.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.493 seconds
+[2026-06-07T06:44:46.685+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:44:46.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:44:46.692+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:44:46.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:44:51.960+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:44:51.993+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:44:51.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:44:52.016+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:44:52.016+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:44:52.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.372 seconds
+[2026-06-07T06:45:22.293+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:45:22.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:45:22.315+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:45:22.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:45:27.152+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:45:27.185+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:45:27.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:45:27.216+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:45:27.215+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:45:27.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.039 seconds
+[2026-06-07T06:45:57.753+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:45:57.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:45:57.762+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:45:57.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:46:02.253+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:46:02.282+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:46:02.282+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:46:02.318+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:46:02.318+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:46:02.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.603 seconds
+[2026-06-07T06:46:32.911+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:46:32.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:46:32.916+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:46:32.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:46:37.319+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:46:37.337+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:46:37.336+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:46:37.363+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:46:37.363+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:46:37.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.497 seconds
+[2026-06-07T06:47:07.653+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:47:07.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:47:07.665+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:47:07.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:47:13.222+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:47:13.377+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:47:13.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:47:13.499+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:47:13.492+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:47:13.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.107 seconds
+[2026-06-07T06:47:44.324+0000] {processor.py:161} INFO - Started process (PID=678) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:47:44.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:47:44.335+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:47:44.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:47:56.594+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:47:56.662+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:47:56.662+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:47:56.823+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:47:56.821+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:47:56.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 12.600 seconds
+[2026-06-07T06:48:27.021+0000] {processor.py:161} INFO - Started process (PID=725) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:48:27.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:48:27.036+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:48:27.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:48:36.699+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:48:37.146+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:48:37.145+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:48:37.386+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:48:37.385+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:48:37.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 10.476 seconds
+[2026-06-07T06:49:07.914+0000] {processor.py:161} INFO - Started process (PID=770) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:49:07.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:49:07.990+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:49:07.988+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:49:21.164+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:49:21.244+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:49:21.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:49:21.281+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:49:21.281+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:49:21.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 13.449 seconds
+[2026-06-07T06:49:52.871+0000] {processor.py:161} INFO - Started process (PID=828) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:49:52.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:49:52.877+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:49:52.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:50:17.200+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:50:18.775+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:50:18.754+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:50:19.909+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:50:19.866+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:50:20.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 27.764 seconds
+[2026-06-07T06:50:51.915+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:50:51.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:50:51.930+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:50:51.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:51:04.350+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:51:04.481+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:51:04.477+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:51:04.550+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:51:04.550+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:51:04.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 12.745 seconds
+[2026-06-07T06:51:35.268+0000] {processor.py:161} INFO - Started process (PID=938) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:51:35.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:51:35.360+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:51:35.353+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:51:48.176+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:51:48.616+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:51:48.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:51:48.814+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:51:48.801+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:51:48.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 13.738 seconds
+[2026-06-07T06:52:19.359+0000] {processor.py:161} INFO - Started process (PID=1003) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:52:19.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:52:19.364+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:52:19.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:52:23.892+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:52:23.923+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:52:23.923+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:52:23.956+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:52:23.956+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:52:23.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.637 seconds
+[2026-06-07T06:53:21.037+0000] {processor.py:161} INFO - Started process (PID=1050) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:53:21.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:53:21.050+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:53:21.048+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:53:40.693+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:53:40.733+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:53:40.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:53:40.759+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:53:40.759+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:53:40.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 20.462 seconds
+[2026-06-07T06:54:25.332+0000] {processor.py:161} INFO - Started process (PID=1103) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:54:25.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:54:25.361+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:54:25.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:54:37.907+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:54:37.984+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:54:37.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:54:38.020+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:54:38.019+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:54:38.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 12.753 seconds
+[2026-06-07T06:55:11.519+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:55:11.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:55:11.693+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:55:11.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:55:24.948+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:55:25.159+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:55:25.157+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:55:25.492+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:55:25.492+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:55:25.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 14.361 seconds
+[2026-06-07T06:55:57.473+0000] {processor.py:161} INFO - Started process (PID=1220) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:55:57.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:55:57.489+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:55:57.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:56:03.207+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:56:03.235+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:56:03.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:56:03.265+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:56:03.265+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:56:03.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.872 seconds
+[2026-06-07T06:56:34.410+0000] {processor.py:161} INFO - Started process (PID=1278) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:56:34.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:56:34.506+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:56:34.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:57:04.535+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:57:04.517+0000] {timeout.py:68} ERROR - Process timed out, PID: 1278
+[2026-06-07T06:57:35.696+0000] {processor.py:161} INFO - Started process (PID=1339) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:57:35.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:57:35.709+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:57:35.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:57:42.195+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:57:42.472+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:57:42.472+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:57:42.530+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:57:42.529+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:57:42.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.906 seconds
+[2026-06-07T06:58:12.838+0000] {processor.py:161} INFO - Started process (PID=1387) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:58:12.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:58:12.844+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:58:12.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:58:16.667+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:58:16.710+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:58:16.695+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:58:16.798+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:58:16.798+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:58:16.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.063 seconds
+[2026-06-07T06:58:47.951+0000] {processor.py:161} INFO - Started process (PID=1450) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:58:47.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:58:47.961+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:58:47.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:59:01.016+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:59:01.138+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:59:01.137+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T06:59:01.223+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:59:01.208+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T06:59:01.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 13.424 seconds
+[2026-06-07T06:59:33.049+0000] {processor.py:161} INFO - Started process (PID=1501) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T06:59:33.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T06:59:33.061+0000] {logging_mixin.py:188} INFO - [2026-06-07T06:59:33.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:00:03.223+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:00:03.222+0000] {timeout.py:68} ERROR - Process timed out, PID: 1501
+[2026-06-07T07:00:36.012+0000] {processor.py:161} INFO - Started process (PID=1552) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:00:36.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:00:36.338+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:00:36.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:01:06.360+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:01:06.355+0000] {timeout.py:68} ERROR - Process timed out, PID: 1552
+[2026-06-07T07:01:37.645+0000] {processor.py:161} INFO - Started process (PID=1633) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:01:37.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:01:37.658+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:01:37.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:01:41.679+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:01:41.785+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:01:41.784+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:01:41.800+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:01:41.800+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:01:41.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.231 seconds
+[2026-06-07T07:02:32.107+0000] {processor.py:161} INFO - Started process (PID=1649) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:02:32.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:02:32.175+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:02:32.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:02:38.760+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:02:38.779+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:02:38.779+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:02:38.801+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:02:38.801+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:02:38.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.781 seconds
+[2026-06-07T07:03:09.709+0000] {processor.py:161} INFO - Started process (PID=1713) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:03:09.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:03:09.720+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:03:09.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:03:20.214+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:03:20.248+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:03:20.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:03:20.276+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:03:20.276+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:03:20.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 10.649 seconds
+[2026-06-07T07:03:51.227+0000] {processor.py:161} INFO - Started process (PID=1778) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:03:51.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:03:51.237+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:03:51.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:03:56.350+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:03:56.434+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:03:56.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:03:56.615+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:03:56.615+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:03:56.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.574 seconds
+[2026-06-07T07:04:27.675+0000] {processor.py:161} INFO - Started process (PID=1824) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:04:27.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:04:27.686+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:04:27.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:04:31.346+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:04:31.389+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:04:31.388+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:04:31.408+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:04:31.408+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:04:31.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.799 seconds
+[2026-06-07T07:05:01.591+0000] {processor.py:161} INFO - Started process (PID=1870) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:05:01.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:05:01.593+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:05:01.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:05:05.200+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:05:05.228+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:05:05.227+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:05:05.434+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:05:05.433+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:05:05.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.924 seconds
+[2026-06-07T07:05:36.039+0000] {processor.py:161} INFO - Started process (PID=1922) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:05:36.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:05:36.041+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:05:36.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:05:40.154+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:05:40.196+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:05:40.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:05:40.232+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:05:40.232+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:05:40.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.262 seconds
+[2026-06-07T07:06:11.099+0000] {processor.py:161} INFO - Started process (PID=1969) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:06:11.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:06:11.110+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:06:11.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:06:14.970+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:06:15.046+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:06:15.045+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:06:15.078+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:06:15.078+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:06:15.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.158 seconds
+[2026-06-07T07:06:54.977+0000] {processor.py:161} INFO - Started process (PID=1999) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:06:54.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:06:54.982+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:06:54.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:07:03.168+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:07:03.220+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:07:03.217+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:07:03.254+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:07:03.254+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:07:03.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 8.675 seconds
+[2026-06-07T07:07:34.288+0000] {processor.py:161} INFO - Started process (PID=2071) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:07:34.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:07:34.298+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:07:34.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:07:38.573+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:07:38.593+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:07:38.592+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:07:38.612+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:07:38.612+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:07:38.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.375 seconds
+[2026-06-07T07:08:09.499+0000] {processor.py:161} INFO - Started process (PID=2146) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:08:09.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:08:09.502+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:08:09.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:08:12.473+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:08:12.508+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:08:12.507+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:08:12.531+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:08:12.530+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:08:12.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.073 seconds
+[2026-06-07T07:08:42.980+0000] {processor.py:161} INFO - Started process (PID=2192) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:08:42.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:08:42.990+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:08:42.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:08:47.462+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:08:47.487+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:08:47.487+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:08:47.512+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:08:47.511+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:08:47.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.570 seconds
+[2026-06-07T07:09:17.781+0000] {processor.py:161} INFO - Started process (PID=2245) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:09:17.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:09:17.784+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:09:17.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:09:22.205+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:09:22.235+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:09:22.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:09:22.260+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:09:22.260+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:09:22.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.522 seconds
+[2026-06-07T07:10:06.830+0000] {processor.py:161} INFO - Started process (PID=2298) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:10:06.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:10:06.841+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:10:06.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:10:10.109+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:10:10.130+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:10:10.129+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:10:10.148+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:10:10.147+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:10:10.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.354 seconds
+[2026-06-07T07:10:40.321+0000] {processor.py:161} INFO - Started process (PID=2356) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:10:40.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:10:40.327+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:10:40.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:10:43.590+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:10:43.613+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:10:43.613+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:10:43.633+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:10:43.632+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:10:43.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.371 seconds
+[2026-06-07T07:11:13.963+0000] {processor.py:161} INFO - Started process (PID=2409) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:11:13.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:11:13.968+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:11:13.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:11:17.114+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:11:17.138+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:11:17.138+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:11:17.158+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:11:17.158+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:11:17.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.257 seconds
+[2026-06-07T07:11:47.569+0000] {processor.py:161} INFO - Started process (PID=2461) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:11:47.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:11:47.575+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:11:47.574+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:11:50.802+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:11:50.824+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:11:50.823+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:11:50.842+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:11:50.842+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:11:50.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.333 seconds
+[2026-06-07T07:12:21.597+0000] {processor.py:161} INFO - Started process (PID=2506) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:12:21.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:12:21.605+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:12:21.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:12:24.448+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:12:24.492+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:12:24.491+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:12:24.513+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:12:24.513+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:12:24.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 2.966 seconds
+[2026-06-07T07:12:54.939+0000] {processor.py:161} INFO - Started process (PID=2558) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:12:54.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:12:54.948+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:12:54.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:12:58.140+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:12:58.162+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:12:58.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:12:58.181+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:12:58.181+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:12:58.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.308 seconds
+[2026-06-07T07:13:28.459+0000] {processor.py:161} INFO - Started process (PID=2604) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:13:28.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:13:28.463+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:13:28.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:13:31.693+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:13:31.717+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:13:31.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:13:31.737+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:13:31.737+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:13:31.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.355 seconds
+[2026-06-07T07:14:02.072+0000] {processor.py:161} INFO - Started process (PID=2659) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:14:02.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:14:02.074+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:14:02.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:14:06.267+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:14:06.292+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:14:06.291+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:14:06.321+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:14:06.320+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:14:06.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.301 seconds
+[2026-06-07T07:26:04.638+0000] {processor.py:161} INFO - Started process (PID=2706) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:26:04.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:26:04.643+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:26:04.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:26:11.508+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:26:11.528+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:26:11.527+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:26:11.546+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:26:11.546+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:26:11.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 6.957 seconds
+[2026-06-07T07:26:41.879+0000] {processor.py:161} INFO - Started process (PID=2768) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:26:41.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:26:41.886+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:26:41.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:26:49.503+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:26:49.528+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:26:49.527+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:26:49.547+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:26:49.547+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:26:49.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.707 seconds
+[2026-06-07T07:27:20.638+0000] {processor.py:161} INFO - Started process (PID=2825) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:27:20.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:27:20.650+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:27:20.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:27:27.796+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:27:27.952+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:27:27.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:27:28.086+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:27:28.085+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:27:28.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.808 seconds
+[2026-06-07T07:27:58.999+0000] {processor.py:161} INFO - Started process (PID=2880) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:27:59.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:27:59.003+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:27:59.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:28:03.287+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:28:03.343+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:28:03.342+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:28:03.367+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:28:03.367+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:28:03.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.406 seconds
+[2026-06-07T07:28:33.631+0000] {processor.py:161} INFO - Started process (PID=2925) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:28:33.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:28:33.634+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:28:33.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:28:38.133+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:28:38.176+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:28:38.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:28:38.202+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:28:38.202+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:28:38.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.618 seconds
+[2026-06-07T07:29:10.250+0000] {processor.py:161} INFO - Started process (PID=2979) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:29:10.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:29:10.263+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:29:10.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:29:41.601+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:29:41.600+0000] {timeout.py:68} ERROR - Process timed out, PID: 2979
+[2026-06-07T07:30:13.173+0000] {processor.py:161} INFO - Started process (PID=3036) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:30:13.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:30:13.175+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:30:13.175+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:30:16.975+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:30:17.385+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:30:17.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:30:17.429+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:30:17.429+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:30:17.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.395 seconds
+[2026-06-07T07:30:48.213+0000] {processor.py:161} INFO - Started process (PID=3094) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:30:48.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:30:48.215+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:30:48.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:30:51.515+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:30:51.538+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:30:51.538+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:30:51.554+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:30:51.553+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:30:51.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.372 seconds
+[2026-06-07T07:31:22.194+0000] {processor.py:161} INFO - Started process (PID=3148) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:31:22.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:31:22.203+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:31:22.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:31:25.665+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:31:25.692+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:31:25.691+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:31:25.708+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:31:25.708+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:31:25.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.564 seconds
+[2026-06-07T07:31:56.592+0000] {processor.py:161} INFO - Started process (PID=3201) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:31:56.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:31:56.595+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:31:56.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:31:59.791+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:31:59.815+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:31:59.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:31:59.837+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:31:59.837+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:31:59.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.276 seconds
+[2026-06-07T07:32:30.277+0000] {processor.py:161} INFO - Started process (PID=3247) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:32:30.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:32:30.284+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:32:30.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:32:33.225+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:32:33.246+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:32:33.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:32:33.263+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:32:33.263+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:32:33.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.036 seconds
+[2026-06-07T07:33:03.451+0000] {processor.py:161} INFO - Started process (PID=3301) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:33:03.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:33:03.454+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:33:03.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:33:06.461+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:33:06.499+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:33:06.498+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:33:06.518+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:33:06.518+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:33:06.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.112 seconds
+[2026-06-07T07:33:37.152+0000] {processor.py:161} INFO - Started process (PID=3354) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:33:37.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:33:37.154+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:33:37.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:33:40.210+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:33:40.234+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:33:40.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:33:40.251+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:33:40.251+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:33:40.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.128 seconds
+[2026-06-07T07:34:11.011+0000] {processor.py:161} INFO - Started process (PID=3401) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:34:11.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:34:11.017+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:34:11.016+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:34:14.325+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:34:14.347+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:34:14.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:34:14.366+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:34:14.366+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:34:14.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.401 seconds
+[2026-06-07T07:34:44.679+0000] {processor.py:161} INFO - Started process (PID=3455) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:34:44.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:34:44.682+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:34:44.682+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:34:47.853+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:34:47.877+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:34:47.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:34:47.894+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:34:47.894+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:34:47.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.247 seconds
+[2026-06-07T07:35:18.141+0000] {processor.py:161} INFO - Started process (PID=3508) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:35:18.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:35:18.144+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:35:18.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:35:21.247+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:35:21.269+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:35:21.269+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:35:21.287+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:35:21.287+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:35:21.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.183 seconds
+[2026-06-07T07:35:52.412+0000] {processor.py:161} INFO - Started process (PID=3552) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:35:52.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:35:52.416+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:35:52.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:35:57.789+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:35:57.812+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:35:57.811+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:35:57.841+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:35:57.841+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:35:57.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.485 seconds
+[2026-06-07T07:36:28.685+0000] {processor.py:161} INFO - Started process (PID=3619) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:36:28.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:36:28.693+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:36:28.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:36:36.038+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:36:36.060+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:36:36.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:36:36.084+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:36:36.084+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:36:36.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 7.472 seconds
+[2026-06-07T07:37:16.064+0000] {processor.py:161} INFO - Started process (PID=3676) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:37:16.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:37:16.074+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:37:16.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:37:45.476+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:37:45.603+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:37:45.602+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:37:45.667+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:37:45.666+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:37:45.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 29.748 seconds
+[2026-06-07T07:38:16.956+0000] {processor.py:161} INFO - Started process (PID=3743) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:38:16.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:38:16.968+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:38:16.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:38:21.753+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:38:21.792+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:38:21.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:38:21.811+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:38:21.811+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:38:21.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.890 seconds
+[2026-06-07T07:38:52.521+0000] {processor.py:161} INFO - Started process (PID=3800) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:38:52.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:38:52.526+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:38:52.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:38:58.105+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:38:58.180+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:38:58.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:38:58.223+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:38:58.223+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:38:58.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 5.770 seconds
+[2026-06-07T07:39:28.851+0000] {processor.py:161} INFO - Started process (PID=3858) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:39:28.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:39:28.855+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:39:28.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:39:32.117+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:39:32.137+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:39:32.137+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:39:32.154+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:39:32.154+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:39:32.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.334 seconds
+[2026-06-07T07:40:02.930+0000] {processor.py:161} INFO - Started process (PID=3911) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:40:02.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:40:02.933+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:40:02.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:40:06.544+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:40:06.684+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:40:06.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:40:06.713+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:40:06.713+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:40:06.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.820 seconds
+[2026-06-07T07:40:37.647+0000] {processor.py:161} INFO - Started process (PID=3957) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:40:37.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:40:37.649+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:40:37.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:40:42.047+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:40:42.154+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:40:42.152+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:40:42.241+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:40:42.241+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:40:42.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 4.667 seconds
+[2026-06-07T07:41:13.060+0000] {processor.py:161} INFO - Started process (PID=4016) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:41:13.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:41:13.063+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:41:13.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:41:16.618+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:41:16.634+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:41:16.633+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:41:16.649+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:41:16.649+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:41:16.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.612 seconds
+[2026-06-07T07:41:47.458+0000] {processor.py:161} INFO - Started process (PID=4062) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:41:47.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:41:47.460+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:41:47.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:41:50.690+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:41:50.715+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:41:50.715+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:41:50.744+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:41:50.744+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:41:50.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.314 seconds
+[2026-06-07T07:42:20.825+0000] {processor.py:161} INFO - Started process (PID=4114) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:42:20.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:42:20.827+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:42:20.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:42:24.273+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:42:24.295+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:42:24.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:42:24.315+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:42:24.315+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:42:24.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 3.521 seconds
+[2026-06-07T07:42:54.526+0000] {processor.py:161} INFO - Started process (PID=4167) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:42:54.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:42:54.528+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:42:54.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:42:57.371+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:42:57.392+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:42:57.391+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:42:57.409+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:42:57.408+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:42:57.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 2.913 seconds
+[2026-06-07T07:43:28.229+0000] {processor.py:161} INFO - Started process (PID=4213) to work on /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:43:28.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/drift_check_dag.py for tasks to queue
+[2026-06-07T07:43:28.232+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:43:28.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:43:30.980+0000] {processor.py:840} INFO - DAG(s) 'drift_check_dag' retrieved from /opt/airflow/dags/drift_check_dag.py
+[2026-06-07T07:43:31.050+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:43:31.049+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-07T07:43:31.082+0000] {logging_mixin.py:188} INFO - [2026-06-07T07:43:31.082+0000] {dag.py:3954} INFO - Setting next_dagrun for drift_check_dag to 2026-06-04 00:00:00+00:00, run_after=2026-06-11 00:00:00+00:00
+[2026-06-07T07:43:31.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/drift_check_dag.py took 2.885 seconds

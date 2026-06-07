@@ -1,0 +1,16 @@
+[2026-06-07T06:59:13.706+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-07T06:59:13.760+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preprocess_loan_data.trigger_train manual__2026-06-07T06:58:18.855599+00:00 [queued]>
+[2026-06-07T06:59:13.770+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preprocess_loan_data.trigger_train manual__2026-06-07T06:58:18.855599+00:00 [queued]>
+[2026-06-07T06:59:13.770+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-07T06:59:13.784+0000] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_train> on 2026-06-07 06:58:18.855599+00:00
+[2026-06-07T06:59:13.794+0000] {standard_task_runner.py:63} INFO - Started process 1487 to run task
+[2026-06-07T06:59:13.798+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'preprocess_loan_data', 'trigger_train', 'manual__2026-06-07T06:58:18.855599+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_data.py', '--cfg-path', '/tmp/tmp43aiiioj']
+[2026-06-07T06:59:13.801+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask trigger_train
+[2026-06-07T06:59:13.866+0000] {task_command.py:426} INFO - Running <TaskInstance: preprocess_loan_data.trigger_train manual__2026-06-07T06:58:18.855599+00:00 [running]> on host ddee8681fe95
+[2026-06-07T06:59:14.001+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='preprocess_loan_data' AIRFLOW_CTX_TASK_ID='trigger_train' AIRFLOW_CTX_EXECUTION_DATE='2026-06-07T06:58:18.855599+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-07T06:58:18.855599+00:00'
+[2026-06-07T06:59:14.002+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-07T06:59:14.138+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-07T06:59:14.149+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=preprocess_loan_data, task_id=trigger_train, run_id=manual__2026-06-07T06:58:18.855599+00:00, execution_date=20260607T065818, start_date=20260607T065913, end_date=20260607T065914
+[2026-06-07T06:59:14.178+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-07T06:59:14.199+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-07T06:59:14.203+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

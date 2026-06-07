@@ -1,0 +1,16 @@
+[2026-06-07T06:58:18.292+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-07T06:58:18.360+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transfer_train_data_to_mariadb.trigger_preprocess manual__2026-06-07T06:46:35.326486+00:00 [queued]>
+[2026-06-07T06:58:18.380+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transfer_train_data_to_mariadb.trigger_preprocess manual__2026-06-07T06:46:35.326486+00:00 [queued]>
+[2026-06-07T06:58:18.380+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-07T06:58:18.409+0000] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_preprocess> on 2026-06-07 06:46:35.326486+00:00
+[2026-06-07T06:58:18.426+0000] {standard_task_runner.py:63} INFO - Started process 1410 to run task
+[2026-06-07T06:58:18.434+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'transfer_train_data_to_mariadb', 'trigger_preprocess', 'manual__2026-06-07T06:46:35.326486+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/transfer_data.py', '--cfg-path', '/tmp/tmp6b7xf156']
+[2026-06-07T06:58:18.443+0000] {standard_task_runner.py:91} INFO - Job 14: Subtask trigger_preprocess
+[2026-06-07T06:58:18.571+0000] {task_command.py:426} INFO - Running <TaskInstance: transfer_train_data_to_mariadb.trigger_preprocess manual__2026-06-07T06:46:35.326486+00:00 [running]> on host ddee8681fe95
+[2026-06-07T06:58:18.797+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transfer_train_data_to_mariadb' AIRFLOW_CTX_TASK_ID='trigger_preprocess' AIRFLOW_CTX_EXECUTION_DATE='2026-06-07T06:46:35.326486+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-07T06:46:35.326486+00:00'
+[2026-06-07T06:58:18.802+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-07T06:58:27.059+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-07T06:58:27.079+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=transfer_train_data_to_mariadb, task_id=trigger_preprocess, run_id=manual__2026-06-07T06:46:35.326486+00:00, execution_date=20260607T064635, start_date=20260607T065818, end_date=20260607T065827
+[2026-06-07T06:58:27.174+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-07T06:58:27.196+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-07T06:58:27.201+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
