@@ -1,7 +1,7 @@
 """Delete failed DAG runs via raw SQL to avoid ORM FK issues."""
 from airflow.utils.session import create_session
 
-dag_id = "train_loan_model"
+dag_id = "drift_check_dag"
 
 with create_session() as session:
     # Get failed run IDs first
