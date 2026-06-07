@@ -34,13 +34,14 @@ def check_data_drift():
     print(f"Reference data shape: {ref_df.shape}")
 
     # 2. Fetch current data
-    raw_curr_list = r.lrange(REDIS_KEY_CURR, 0, -1)
-    if not raw_curr_list:
-        raise AirflowSkipException(f"Current data '{REDIS_KEY_CURR}' not found or empty in Redis. Skipping drift check.")
+    last_idx = int(r.get('prediction_log_last_idx') or 0)
+    total_records = r.llen(REDIS_KEY_CURR)
     
-    num_records = len(raw_curr_list)
-    if num_records <= 10:
-        raise AirflowSkipException(f"Not enough new prediction data. Found {num_records}, need more than 10. Skipping drift check.")
+    new_records_count = total_records - last_idx
+    if new_records_count <= 10:
+        raise AirflowSkipException(f"Not enough new prediction data. Found {new_records_count} new records, need more than 10. Skipping drift check.")
+    
+    raw_curr_list = r.lrange(REDIS_KEY_CURR, last_idx, total_records - 1)
     
     print("Loading current data...")
     curr_data = [json.loads(item) for item in raw_curr_list]
@@ -69,9 +70,9 @@ def check_data_drift():
     report.save_html(REPORT_PATH)
     print(f"Drift report saved successfully to {REPORT_PATH}")
 
-    # 6. Trim the processed items from the Redis list to only check new data next time
-    r.ltrim(REDIS_KEY_CURR, num_records, -1)
-    print(f"Trimmed {num_records} processed items from '{REDIS_KEY_CURR}'.")
+    # 6. Update the last processed index to only check new data next time
+    r.set('prediction_log_last_idx', total_records)
+    print(f"Updated last processed index to {total_records}. Kept all items in '{REDIS_KEY_CURR}'.")
 
 with DAG(
     'drift_check_dag',
